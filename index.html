@@ -12,10 +12,8 @@
 <body>
     <header>
         <nav class="nav">
-            <div class="lista1">
                 <a href="index.html"><img class="logo" src="Imagenes/logoChoza.png" alt=""></a>
-                <button class="botonNav"><img class="lista" src="Imagenes/list.svg" alt=""></button>
-            </div>
+                <button class="botonNav"><img class="botonLista" src="Imagenes/list.svg" alt=""></button>
             <div class="lista">
                 <ul class="menu">
                     <li><a href="index.html">Inicio</a></li>
@@ -27,7 +25,34 @@
         </nav>
     </header>
     <main>
-        
+        <h1>Contáctanos</h1>
+        <p>¿Tienes alguna duda? ¿Quieres saber más sobre nuestros panes? ¡Estamos aquí para ayudarte!</p>
+
+        <div class="contact-info">
+            <h2>Información de Contacto</h2>
+            <p><strong>Dirección:</strong> 📍 C/ Conejito de Málaga, 3, Carretera de Cádiz, 29003 Málaga</p>
+            <p><strong>Teléfono:</strong> 📞 +34 744 738 895</p>
+            <p><strong>Correo electrónico:</strong> <a
+                    href="mailto:lachozadelpan23@gmail.com">lachozadelpan23@gmail.com</a></p>
+        </div>
+
+        <div class="contact-form">
+            <h2>Envíanos un mensaje</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Tu correo" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <h2>Visítanos</h2>
+        <p>¡Te esperamos en nuestra tienda! Aquí te dejamos el mapa para que llegues fácilmente:</p>
     </main>
     <footer>
         <section class="footer-seccion">
