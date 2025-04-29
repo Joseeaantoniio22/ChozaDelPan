@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choza Del Pan</title>
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/contacto.css">
+    <script src="JS/index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <button class="botonNav"><img class="lista" src="Imagenes/list.svg" alt=""></button>
+            <a href="index.html"> <img class="logo" src="Imagenes/logoChoza.png" alt=""> </a>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="">Nuestros Panes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="">Productos</a></li>
+                <li><a href="">Empleo</a></li>
+                <li><a href="">Ocasiones especiales</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+            <h1>Contáctanos</h1>
+            <p>¿Tienes alguna duda? ¿Quieres saber más sobre nuestros panes? ¡Estamos aquí para ayudarte!</p>
+
+            <div class="contact-info">
+                <h2>Información de Contacto</h2>
+                <p><strong>Dirección:</strong> 📍 C/ Conejito de Málaga, 3, Carretera de Cádiz, 29003 Málaga</p>
+                <p><strong>Teléfono:</strong> 📞 +34 744 738 895</p>
+                <p><strong>Correo electrónico:</strong> <a
+                        href="mailto:lachozadelpan23@gmail.com">lachozadelpan23@gmail.com</a></p>
+            </div>
+
+            <div class="contact-form">
+                <h2>Envíanos un mensaje</h2>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="Tu correo" required>
+
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <h2>Visítanos</h2>
+            <p>¡Te esperamos en nuestra tienda! Aquí te dejamos el mapa para que llegues fácilmente:</p>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.9869380559794!2d-4.455794924654686!3d36.69885177340672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f998aab5cc15%3A0xed508441482c23f3!2sLa%20choza%20del%20pan!5e0!3m2!1ses!2ses!4v1745834465415!5m2!1ses!2ses"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    </main>
+    <footer>
+        <section class="footer-seccion">
+            <h3>La Choza del Pan.</h3>
+            <p>Hecho con amor desde el 2023.</p>
+            <small>&copy; 2025 La Choza del Pan. Todos los derechos reservados</small>
+        </section>
+        <section class="footer-seccion">
+            <div class="botonFooter">
+                <a href="index.html" class="link-footer">Inico</a>
+                <a href="" class="link-footer">Productos</a>
+                <a href="" class="link-footer">Contacto</a>
+            </div>
+        </section>
+        <section class="footer-seccion">
+            <p>📍 C/ Conejito de Málaga, 3 </p>
+            <p>📞 +34 744738895 </p>
+            <p>✉️ lachozadelpan23@gmail.com </p>
+        </section>
+
+    </footer>
+</body>
+
+</html>
