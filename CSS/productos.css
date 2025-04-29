@@ -1,3 +1,6 @@
+main{
+    text-align: center;
+}
 .catalogo {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -46,10 +49,21 @@
     color: #666;
 }
 
-.precio {
-    margin-top: 10px;
+.producto-link {
+    padding: 12px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #eee;
+}
+
+.producto-link a {
+    color: #d2691e; /* tono cálido tipo pan tostado */
+    text-decoration: none;
     font-weight: bold;
-    color: #d2691e;
+    transition: color 0.3s ease;
+}
+
+.producto-link a:hover {
+    color: #a0522d;
 }
 
 @media (max-width: 600px) {
