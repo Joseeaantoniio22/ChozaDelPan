@@ -1,3 +1,24 @@
+@font-face{
+    font-family: "Titulo";
+    src: url("../Imagenes/Fuentes/Alegreya_SC/AlegreyaSC-BlackItalic.ttf") format("truetype");
+}
+
+.titulo{
+    font-family: Titulo;
+    font-size: 50px;
+    animation: brillar 2.5s infinite alternate;
+}
+  
+  @keyframes brillar {
+    0% {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff;
+    }
+    100% {
+      text-shadow: 0 0 20px #ffd700, 0 0 30px #ffd700, 0 0 40px #ffa500;
+    }
+  }
+  
+
 html,
 body {
     margin: 0vh;
@@ -23,6 +44,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 4vh;
 }
 
 .nav div {
@@ -35,7 +57,7 @@ header {
 
 .nav {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -136,62 +158,56 @@ nav ul li a {
 }
 
 
-.animacion-contenedor {
+.animacionContenedor {
     position: relative;
-    margin-left: 1vh;
-    animation: aparecerPan 1.5s ease-out forwards;
-    opacity: 0;
-}
-
-.animacion {
     width: 40vh;
+    height: 40vh;
+    margin: 0 auto;
+  }
+  
+  .animacion {
+    width: 30vh;
     height: 30vh;
     border-radius: 50%;
-    position: relative;
-    z-index: 2;
-}
-
-@keyframes aparecerPan {
-    from {
-        transform: translateX(-100px);
-        opacity: 0;
-    }
-
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-.texto-circular {
     position: absolute;
-    width: 60vh;
-    height: 50vh;
+    top: 50%;
+    left: 0vh;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  
+  .texto-circular {
+    position: absolute;
+    top: 1;
+    left: 1;
+    width: 40vh;
+    height: 45vh;
     z-index: 1;
-    top: 0vh;
-    left: 57vh;
-    pointer-events: none;
-    animation: rotarTexto 25s linear infinite;
-}
-
-.texto-circular text {
+    animation: rotarTexto 20s linear infinite;
+  }
+  
+  .texto-circular svg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .texto-circular text {
     fill: white;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
-    letter-spacing: 3px;
-    word-spacing: 3px;
+    letter-spacing: 2px;
     text-transform: uppercase;
-}
-
-@keyframes rotarTexto {
+  }
+  
+  @keyframes rotarTexto {
     from {
-        transform: rotate(0deg);
+      transform: rotate(0deg);
     }
-
     to {
-        transform: rotate(360deg);
+      transform: rotate(360deg);
     }
-}
+  }
+  
 
 
 @media (max-width: 1024px) {
@@ -221,6 +237,7 @@ main {
     width: 100vh;
     box-shadow: black 0px 0px 30px;
     border-radius: 20px;
+    margin-left: 10px;
 }
 
 .carousel-inner{
@@ -258,6 +275,87 @@ main {
     }
 }
 
+.secciones{
+    display: flex;
+    border: black 2px solid;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10vh;
+    flex-wrap: wrap;
+}
+
+.texto{
+    width: 60vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2vh;
+    font-size: 17px;
+    box-shadow: black 0px 0px 20px;
+    border-radius: 20px;
+}
+
+@media (max-width: 820px) {
+    .texto{
+        margin-top: 10vh;
+    }
+}
+
+.circulo{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circulo img{
+    height: 50vh;
+    width: 50vh;
+    border-radius: 100%;
+    border: rgb(49, 1, 1) 5px solid;
+}
+
+@media (max-width: 820px) {
+    .circulo img{
+        width: 30vh;
+        height: 30vh;
+    }
+}
+
+.publicidad{
+    font-size: 16px;
+    margin: 2vh;
+}
+
+
+.botonArtesano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #65b7dd;
+    border-radius: 30px;
+    padding: 2vh;
+    width: 60vh;
+    color: white;
+    font-size: 17px;
+    font-style:oblique;
+    text-decoration: none;
+}
+
+.botonArtesano a{
+    text-decoration: none;
+    padding: 1vh;
+    border-radius: 30px;
+    height: auto;
+    color: white;
+}
+
+.botonArtesano:hover{
+    background-color: #2a9cd1;
+    color: black;
+    transform: scale(1.05);
+    transition: background-color 0.5s ease, transform 0.6s ease;
+}
 
 
 
@@ -283,6 +381,7 @@ footer {
 .botonFooter {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
     height: 100%;
 }
@@ -290,6 +389,8 @@ footer {
 .botonFooter a {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 2px;
     padding: 2vh;
     background-color: white;
