@@ -1,0 +1,60 @@
+.contenido {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    margin-bottom: 0.3em;
+    color: #5E3D2C;
+  }
+  
+  .decorador {
+    width: 80px;
+    height: 4px;
+    background-color: #A67C52;
+    margin: 0 auto 20px;
+    border-radius: 2px;
+  }
+  
+  .descripcion {
+    font-size: 1.1em;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    color: #4E3C2A;
+  }
+  
+  .imagen-producto {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .subtitulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin-top: 40px;
+    color: #5E3D2C;
+  }
+  
+  .lista {
+    list-style: none;
+    padding: 0;
+    font-size: 1em;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .lista li {
+    margin: 10px 0;
+  }
+  
+  .precio {
+    font-size: 1.3em;
+    margin-top: 30px;
+    color: #7B4E2D;
+  }

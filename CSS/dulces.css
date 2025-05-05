@@ -1,0 +1,51 @@
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    margin-bottom: 0.3em;
+  }
+  
+  .separador {
+    width: 80px;
+    height: 4px;
+    background-color: #D4A373;
+    margin: 0 auto 20px;
+    border-radius: 2px;
+  }
+  
+  .descripcion {
+    font-size: 1.1em;
+    max-width: 700px;
+    margin: 0 auto 30px;
+  }
+  
+  .imagen-croissant {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .subtitulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin-top: 40px;
+  }
+  
+  .lista-variedades {
+    list-style: none;
+    padding: 0;
+    font-size: 1em;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .lista-variedades li {
+    margin: 8px 0;
+  }
