@@ -39,44 +39,80 @@ main {
 
 /* Estilo de cada producto */
 .producto {
-    flex: 1 1 calc(33.33% - 20px);
-    height: 65vh;
-    max-width: 300px;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    background-color: #fffdf9;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease;
 }
 
-.producto img {
+.producto:hover {
+    transform: scale(1.02);
+}
+
+.imagen-producto {
     width: 100%;
-    height: 35vh;
-    border-bottom: 2px solid #ccc;
+    height: 200px;
+    object-fit: cover;
 }
 
-.info {
+.info-producto {
     padding: 15px;
 }
 
-.info h3 {
-    font-size: 1.2rem;
-    margin: 10px 0;
+.titulo-producto {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
-.producto-link a {
+.descripcion-producto {
+    font-size: 0.95rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.etiquetas {
+    margin-bottom: 10px;
+}
+
+.etiqueta {
     display: inline-block;
-    padding: 10px;
-    background-color: #B08C2D;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
+    background-color: #eee;
+    color: #333;
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    border-radius: 12px;
+    margin-right: 5px;
 }
 
-.producto-link a:hover {
-    background-color: #8f6a1d;
+.etiqueta.nuevo {
+    background-color: #ffdbac;
+    color: #8a4b00;
 }
+
+.etiqueta.integral {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.boton-info {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #b5651d;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.boton-info:hover {
+    background-color: #8b4513;
+}
+
 
 /* Responsive: Pantallas más pequeñas (móviles) */
 @media (max-width: 768px) {

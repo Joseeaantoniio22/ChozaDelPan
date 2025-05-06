@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Panadería artesanal en Málaga. Descubre nuestros panes hechos con amor.">
+    <meta name="keywords" content="pan, panadería, artesanal, Málaga, choza del pan">
     <title>Choza Del Pan</title>
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/contacto.css">
@@ -27,24 +29,41 @@
     </header>
     <main>
         <section class="seccion-contacto">
-            <h1>¿Hablamos?</h1>
-            <p class="intro-contacto">
-                Si tienes dudas, sugerencias o simplemente quieres saber más sobre nuestros productos artesanales,
-                ¡estamos encantados de escucharte!
-                Escríbenos por WhatsApp, correo o redes sociales. Tu mensaje siempre es bienvenido.
-            </p>
+            <div class="contacto-contenido">
+                <h1>¿Hablamos?</h1>
+                <p class="intro-contacto">
+                    ¿Tienes dudas, sugerencias o simplemente quieres conocer más sobre nuestros panes artesanales?<br>
+                    <strong>¡Estamos encantados de escucharte!</strong><br><br>
+                    Escríbenos por <span class="resaltado">WhatsApp</span>, <span class="resaltado">correo</span> o en
+                    nuestras <span class="resaltado">redes sociales</span>. <br>
+                    <em>Tu mensaje siempre será bienvenido.</em>
+                </p>
+            </div>
         </section>
+
         <div class="informacion">
             <div class="contact-info">
-                <h2>Información de Contacto</h2>
-                <p><strong>Dirección:</strong> 📍 C/ Conejito de Málaga, 3, Carretera de Cádiz, 29003 Málaga</p>
-                <p><strong>Teléfono:</strong> 📞 +34 744 738 895</p>
-                <p><strong>Correo electrónico:</strong> <a
-                        href="mailto:lachozadelpan23@gmail.com">lachozadelpan23@gmail.com</a></p>
+                <h2><i class="fas fa-info-circle"></i> Información de Contacto</h2>
+                <p><strong>📧 Correo electrónico:</strong>
+                    <a href="mailto:lachozadelpan23@gmail.com">lachozadelpan23@gmail.com</a>
+                </p>
+                <p><strong>📞 Teléfono:</strong> +34 744 738 895</p>
+                <p><strong>📍 Dirección:</strong> C/ Conejito de Málaga, 3, Carretera de Cádiz, 29003 Málaga</p>
+                <hr>
+
+
+                <div class="mapa-ubicacion">
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.9869380559794!2d-4.455794924654686!3d36.69885177340672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f998aab5cc15%3A0xed508441482c23f3!2sLa%20choza%20del%20pan!5e0!3m2!1ses!2ses!4v1745834465415!5m2!1ses!2ses"
+                            width="100%" height="200" style="border:0; border-radius: 10px;" allowfullscreen=""
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
             </div>
 
             <div class="contact-form">
-                <h2>Envíanos un mensaje</h2>
+                <h2><i class="fas fa-paper-plane"></i> Envíanos un mensaje</h2>
                 <form action="submit_form.php" method="POST">
                     <label for="name">Nombre:</label>
                     <input type="text" id="name" name="name" placeholder="Tu nombre" required>
@@ -55,70 +74,57 @@
                     <label for="message">Mensaje:</label>
                     <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí" required></textarea>
 
-                    <button type="submit">Enviar</button>
+                    <button type="submit">📨 Enviar</button>
                 </form>
             </div>
         </div>
-        <div class="lugar">
-            <div class="maps">
-                <h2>Visítanos</h2>
-                <p>¡Te esperamos en nuestra tienda! Aquí te dejamos el mapa para que llegues fácilmente:</p>
-                <div class="map-container">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.9869380559794!2d-4.455794924654686!3d36.69885177340672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f998aab5cc15%3A0xed508441482c23f3!2sLa%20choza%20del%20pan!5e0!3m2!1ses!2ses!4v1745834465415!5m2!1ses!2ses"
-                        height="200" width="350" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
-                </div>
-            </div>
+        <div class="info-horario">
             <div class="foto">
-                <img class="imagen" src="Imagenes/tiendas.jpg" alt="">
+                <img class="imagen" src="Imagenes/tiendas.jpg" alt="Foto de la tienda">
+            </div>
+
+            <div class="horario">
+                <table class="tabla-horario">
+                    <thead>
+                        <tr>
+                            <th>Día</th>
+                            <th>Horario</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lunes</td>
+                            <td><i class="fas fa-clock icono-reloj"> 6:30 – 16:00</td>
+                        </tr>
+                        <tr>
+                            <td>Martes</td>
+                            <td><i class="fas fa-clock icono-reloj"> 6:30 – 16:00</td></i>
+                        </tr>
+                        <tr>
+                            <td>Miércoles</td>
+                            <td><i class="fas fa-clock icono-reloj"> 6:30 – 16:00</td></i>
+                        </tr>
+                        <tr>
+                            <td>Jueves</td>
+                            <td><i class="fas fa-clock icono-reloj"> 6:30 – 16:00</td></i>
+                        </tr>
+                        <tr>
+                            <td>Viernes</td>
+                            <td><i class="fas fa-clock icono-reloj"> 6:30 – 16:00</td></i>
+                        </tr>
+                        <tr>
+                            <td>Sábado</td>
+                            <td><i class="fas fa-clock icono-reloj"> 7:00 – 14:30</td></i>
+                        </tr>
+                        <tr>
+                            <td>Domingo</td>
+                            <td><i class="fas fa-times-circle" style="color: red;"> Cerrado</td></i>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
 
-        <div class="horario">
-            <h2>Horario de Apertura</h2>
-            <table class="tabla-horario">
-                <thead>
-                    <tr>
-                        <th>Día</th>
-                        <th>Horario</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td data-label="Día">Lunes</td>
-                        <td data-label="Horario"><i class="fas fa-clock icono-reloj">6:30 – 16:00 </td></i>
-                    </tr>
-                    <tr>
-                        <td data-label="Día">Martes</td>
-                        <td data-label="Horario"><i class="fas fa-clock icono-reloj">6:30 – 16:00</td></i>
-                    </tr>
-                    <tr>
-                        <td data-label="Día">Miércoles</td>
-                        <td data-label="Horario"><i class="fas fa-clock icono-reloj">6:30 – 16:00</td></i>
-                    </tr>
-                    <tr>
-                        <td data-label="Día">Jueves</td>
-                        <td data-label="Horario"><i class="fas fa-clock icono-reloj">6:30 – 16:00</td></i>
-                    </tr>
-                    <tr>
-                        <td data-label="Día">Viernes</td>
-                        <td data-label="Horario"><i class="fas fa-clock icono-reloj">6:30 – 16:00</td></i>
-                    </tr>
-                    <tr>
-                        <td data-label="Día">Sábado</td>
-                        <td data-label="Horario"><i class="fas fa-clock icono-reloj">7:00 – 14:30</td></i>
-                    </tr>
-                    <tr>
-                        <td data-label="Día">Domingo</td>
-                        <td data-label="Horario"><i class="fas fa-times-circle"
-                                style="color: red; margin-right: 8px;">Cerrado</td></i>
-                    </tr>
-                </tbody>
-            </table>
-
-        </div>
     </main>
     <footer>
         <section class="footer-seccion">
@@ -135,18 +141,33 @@
         </section>
         <section class="footer-seccion">
             <div class="datos">
-                <p><a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0xd72f998aab5cc15:0xed508441482c23f3?sa=X&ved=1t:8290&ictx=111"
+                <p>
+                    <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0xd72f998aab5cc15:0xed508441482c23f3?sa=X&ved=1t:8290&ictx=111"
                         class="ubicacion-btn" target="_blank">
-                        📍 Ver nuestra ubicación</p></a>
-
-                <p><a href="https://wa.me/34744738895?text=Hola%2C%20quiero%20más%20información%20sobre%20sus%20productos"
-                        target="_blank" class="whatsapp-btn"><img class="svg" src="Imagenes/whatsapp.svg" alt=""> +34
-                        744738895 </p></a>
-                <p><a href="mailto:tuemail@dominio.com?subject=Consulta%20sobre%20panes%20especiales&body=Hola%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20sus%20productos."
-                        class="email-btn"><img class="svg" src="Imagenes/gmail.svg" alt="">Escríbenos por Email
-                </p></a>
-                <p><a href="https://www.instagram.com/la.chozadelpan/" class="instagram-btn" target="_blank">
-                        <img class="svg" src="Imagenes/instagram.svg" alt="">Síguenos en Instagram</p></a>
+                        📍 Ver nuestra ubicación
+                    </a>
+                </p>
+                
+                <p>
+                    <a href="https://wa.me/34744738895?text=Hola%2C%20quiero%20más%20información%20sobre%20sus%20productos"
+                        target="_blank" class="whatsapp-btn">
+                        <img class="svg" src="Imagenes/whatsapp.svg" alt=""> +34 744738895
+                    </a>
+                </p>
+                
+                <p>
+                    <a href="mailto:tuemail@dominio.com?subject=Consulta%20sobre%20panes%20especiales&body=Hola%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20sus%20productos."
+                        class="email-btn">
+                        <img class="svg" src="Imagenes/gmail.svg" alt=""> Escríbenos por Email
+                    </a>
+                </p>
+                
+                <p>
+                    <a href="https://www.instagram.com/la.chozadelpan/" class="instagram-btn" target="_blank">
+                        <img class="svg" src="Imagenes/instagram.svg" alt=""> Síguenos en Instagram
+                    </a>
+                </p>
+                
             </div>
         </section>
 

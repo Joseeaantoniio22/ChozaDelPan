@@ -3,40 +3,76 @@ main {
     text-align: center;
 }
 
-.informacion{
+.seccion-contacto {
+    background: linear-gradient(135deg, #fff5e1, #ffe0b2);
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contacto-contenido h1 {
+    font-size: 2.5rem;
+    color: #d2691e;
+    margin-bottom: 20px;
+}
+
+.intro-contacto {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.resaltado {
+    color: #c1440e;
+    font-weight: bold;
+}
+
+
+.informacion {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    gap: 40px; /* Espacio entre contact-info y contact-form */
+    gap: 40px;
+    /* Espacio entre contact-info y contact-form */
     margin: 20px auto;
-    flex-wrap: wrap; /* Para que se ajusten en pantallas pequeñas */
+    flex-wrap: wrap;
+    /* Para que se ajusten en pantallas pequeñas */
 }
 
-.imagen{
+.imagen {
     height: 50vh;
     width: 80vh;
     border-radius: 30px;
 }
 
 @media (max-width: 820px) {
-    .imagen{
+    .imagen {
         width: auto;
         height: 30vh;
         margin: 10px;
     }
 }
 
-.lugar{
+.lugar {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    gap: 40px; /* Espacio entre contact-info y contact-form */
+    gap: 40px;
+    /* Espacio entre contact-info y contact-form */
     margin: 20px auto;
-    flex-wrap: wrap; /* Para que se ajusten en pantallas pequeñas */
+    flex-wrap: wrap;
+    /* Para que se ajusten en pantallas pequeñas */
 }
-.maps, .foto {
+
+.maps,
+.foto {
     flex: 1 1 300px;
     max-width: 500px;
     box-sizing: border-box;
@@ -56,118 +92,190 @@ main {
     object-fit: cover;
 }
 
-.contact-info{
-    display: flex; /* <- necesario para centrar contenido */
-    flex-direction: column;
-    align-items: center;
+.informacion {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
-
-    flex: 1 1 300px;
-    max-width: 450px;
-    width: 100%;
-    height: 55vh;
+    gap: 40px;
+    margin: 50px auto;
+    max-width: 1000px;
     padding: 20px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #fffaf0, #fce3c0);
+    border-radius: 20px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info,
+.contact-form {
+    flex: 1 1 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.contact-info h2,
+.contact-form h2 {
+    font-size: 1.8rem;
+    color: #c1440e;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .contact-info p {
+    font-size: 1.1rem;
     margin: 10px 0;
+    color: #444;
 }
 
 .contact-info a {
-    color: #333;
+    color: #c1440e;
+    text-decoration: none;
 }
 
 .contact-info a:hover {
-    color: #B08C2D;
+    text-decoration: underline;
 }
 
-.contact-form {
-    flex: 1 1 300px; /* Ocupa mínimo 300px, luego se ajusta */
-    max-width: 450px;
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+form input,
+form textarea {
     width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    transition: border-color 0.3s;
 }
 
-.contact-form form {
-    display: flex;
-    flex-direction: column;
+form input:focus,
+form textarea:focus {
+    border-color: #c1440e;
+    outline: none;
 }
 
-.contact-form input,
-.contact-form textarea {
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+form textarea {
+    min-height: 120px;
+    resize: vertical;
 }
 
-.contact-form button {
-    padding: 10px 15px;
-    background-color: #333;
+button[type="submit"] {
+    margin-top: 20px;
+    background-color: #d2691e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #a0522d;
+}
+
+
+button {
+    background-color: #d2691e;
     color: white;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
 }
 
-.contact-form button:hover {
-    background-color: #B08C2D;
+button:hover {
+    background-color: #a0522d;
+}
+
+.info-horario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.foto {
+    flex: 1;
+    min-width: 320px;
+    max-width: 500px;
+}
+
+.foto .imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    object-fit: cover;
 }
 
 .horario {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
+    flex: 1;
+    min-width: 320px;
+    max-width: 500px;
 }
 
+.horario h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #3e3e3e;
+    text-align: center;
+}
 
 .tabla-horario {
-    background: white;
-    border-collapse: collapse;
     width: 100%;
-    max-width: 600px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
     overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .tabla-horario th,
 .tabla-horario td {
-    padding: 15px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
+    padding: 15px 20px;
+    text-align: left;
+    background-color: #fff;
+    font-size: 1rem;
 }
 
-.tabla-horario th {
-    background-color: #B08C2D;
+.tabla-horario thead th {
+    background-color: #f5b04d;
     color: white;
+    font-weight: 600;
 }
 
-.tabla-horario tr:hover {
-    background-color: #f1f1f1;
+.tabla-horario tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
 }
 
-.icono-reloj {
-    color: black;
+.tabla-horario tbody tr:hover {
+    background-color: #ffe8c3;
+    transition: background-color 0.3s ease;
+}
+
+.tabla-horario i {
     margin-right: 8px;
+    color: black;
 }
+
 
 /* --- Estilos para la tabla en móviles --- */
 @media (max-width: 600px) {
     .tabla-horario {
         width: 100%;
-        font-size: 14px; /* Texto más pequeño si quieres */
+        font-size: 14px;
+        /* Texto más pequeño si quieres */
     }
 
     .tabla-horario th,
@@ -177,7 +285,8 @@ main {
     }
 
     .tabla-horario th {
-        background-color: #B08C2D; /* Color de fondo encabezado */
+        background-color: #B08C2D;
+        /* Color de fondo encabezado */
         color: white;
     }
 
