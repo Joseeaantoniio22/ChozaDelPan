@@ -1,0 +1,138 @@
+[
+    {
+        "id": 1,
+        "imagen": "Imagenes/dulces/croissant.jpg",
+        "nombre": "Croissant",
+        "DescripcionBreve": "Delicioso croissant de mantequilla, crujiente por fuera y suave por dentro.",
+        "descripcion": "El croissant es un panecillo hojaldrado de origen europeo, famoso por su forma de media luna y textura ligera y crujiente. Se elabora con una masa rica en mantequilla, que se pliega varias veces para crear capas finas que se expanden al hornearse.",
+        "detalles": {
+            "textura": "Exterior crujiente e interior suave y hojaldrado",
+            "sabor": "Equilibrado, mantecoso y ligeramente dulce",
+            "ideal_para": "Ideal para desayunos y brunchs",
+            "ingredientes_principales": [
+                "Harina de trigo",
+                "Mantequilla",
+                "Levadura fresca",
+                "Leche",
+                "Azúcar",
+                "Sal"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "imagen" : "Imagenes/dulces/avanicosFeria.jpg",
+        "nombre": "Abanicos de Feria",
+        "DescripcionBreve": "Deliciosos avanicos con una capa de azúcar glas, perfectos para acompañar el café.",
+        "descripcion": "Crujiente, bañado en azúcar y con sabor a infancia. Un clásico irresistible de las ferias.",
+        "detalles": {
+            "textura": "Muy crujiente, dorado por fuera y ligeramente aireado por dentro",
+            "sabor": "Dulce, con notas de masa frita y toque de canela o vainilla (según receta)",
+            "ideal_para": "Ideal para acompañar con chocolate caliente",
+            "ingredientes_principales": [
+                "Harina de trigo",
+                "Agua o leche",
+                "Manteca o aceite",
+                "Azúcar",
+                "Sal",
+                "Opcional: canela o vainilla"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "imagen": "Imagenes/dulces/palemraGrande.jpg",
+        "nombre": "Palmeras Grandes",
+        "DescripcionBreve": "Palmeras de gran tamaño, crujientes y caramelizadas, ideales para compartir o darte un buen capricho.",
+        "descripcion": "Hojaldre en forma de corazón gigante, con un toque dorado y azúcar crujiente. Un clásico de la pastelería que nunca falla.",
+        "detalles": {
+            "textura": "Crujiente por fuera, con capas ligeras y aireadas por dentro. Borde caramelizado.",
+            "sabor": "Dulce, mantecoso, con notas de caramelo por el azúcar fundido al hornear.",
+            "ideal_para": "Perfectas para acompañar un café con leche o para compartir en una merienda.",
+            "ingredientes_principales": [
+                "Masa de hojaldre",
+                "Azúcar",
+                "Mantequilla (en algunas versiones)",
+                "Chocolate (opcional, para bañar una cara)"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "imagen": "Imagenes/dulces/ROSCOS.jpg",
+        "nombre": "Roscos",
+        "DescripcionBreve": "Roscos tradicionales, esponjosos por dentro y con ese toque clásico de anís y azúcar.",
+        "descripcion": "Un bocado tradicional que sabe a hogar. Esponjosos, aromáticos y recubiertos de azúcar, los roscos son un imprescindible en fiestas y desayunos.",
+        "detalles": {
+            "textura": "Exterior ligeramente crujiente por el rebozado en azúcar, interior tierno y esponjoso.",
+            "sabor": "Dulce con un característico toque de anís o limón, según la receta.",
+            "ideal_para": "Perfectos para el desayuno o la merienda, especialmente con café o chocolate caliente.",
+            "ingredientes_principales": [
+                "Harina de trigo",
+                "Huevos",
+                "Azúcar",
+                "Aceite de oliva o girasol",
+                "Levadura o bicarbonato",
+                "Ralladura de limón o anís",
+                "Canela (opcional)"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "imagen": "Imagenes/dulces/cañas.jpeg",
+        "nombre": "Cañas",
+        "DescripcionBreve": "Delicadas cañas de hojaldre rellenas de crema o chocolate, crujientes y dulces.",
+        "descripcion": "Un clásico irresistible: cañas doradas y hojaldradas, rellenas con crema pastelera o chocolate, y espolvoreadas con azúcar. El equilibrio perfecto entre ligereza y sabor.",
+        "detalles": {
+            "textura": "Exterior crujiente y caramelizado, interior suave y cremoso gracias al relleno.",
+            "sabor": "Dulce y equilibrado, con notas de mantequilla del hojaldre y la intensidad del relleno.",
+            "ideal_para": "Perfectas para un desayuno especial, una merienda dulce o acompañar con café o té.",
+            "ingredientes_principales": [
+                "Masa de hojaldre",
+                "Crema pastelera o chocolate (relleno)",
+                "Azúcar glas o azúcar normal para espolvorear",
+                "Huevo (para dorar)"
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "imagen": "Imagenes/dulces/CAÑON.jpg",
+        "nombre": "Cañón",
+        "DescripcionBreve": "Hojaldre enrollado, relleno de crema pastelera y espolvoreado con azúcar glas. Dulce y elegante.",
+        "descripcion": "El cañón es un postre de hojaldre enrollado y dorado, relleno generosamente de crema pastelera. Su forma cilíndrica y su acabado con azúcar glas lo convierten en un dulce clásico y visualmente atractivo.",
+        "detalles": {
+            "textura": "Exterior crujiente y laminado, interior suave por la crema. Contraste entre capas hojaldradas y relleno cremoso.",
+            "sabor": "Dulce, con notas suaves de vainilla y mantequilla, típico de la crema pastelera.",
+            "ideal_para": "Ideal como postre individual o para acompañar una bebida caliente.",
+            "ingredientes_principales": [
+                "Masa de hojaldre",
+                "Crema pastelera",
+                "Azúcar glas",
+                "Huevo (para dorar el hojaldre)"
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "imagen": "Imagenes/dulces/tartas.jpeg",
+        "nombre": "Tarta",
+        "DescripcionBreve": "Deliciosa tarta artesanal con base de bizcocho, cremoso relleno y acabado con frutas frescas o chocolate.",
+        "descripcion": "Una tarta clásica, con una base suave y esponjosa, rellena de crema pastelera o nata montada, y decorada con frutas frescas, mermelada o chocolate. Perfecta para ocasiones especiales o como postre en cualquier comida.",
+        "detalles": {
+            "textura": "Base suave y esponjosa, relleno cremoso y ligero, decorada con frutas frescas o un glaseado suave.",
+            "sabor": "Equilibrado entre la suavidad del bizcocho y la cremosidad del relleno, con un toque fresco de frutas o dulce de chocolate.",
+            "ideal_para": "Ideal para celebraciones, cumpleaños, o cualquier ocasión especial. Perfecta para acompañar con un café o té.",
+            "ingredientes_principales": [
+                "Harina de trigo",
+                "Huevos",
+                "Azúcar",
+                "Mantequilla",
+                "Crema pastelera o nata montada",
+                "Frutas frescas (fresas, kiwi, durazno, etc.)",
+                "Chocolate (opcional para decoración)"
+            ]
+        }
+    }
+]

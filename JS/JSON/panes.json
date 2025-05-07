@@ -1,0 +1,169 @@
+[
+    {
+        "id":1,
+        "nombre": "Pan alemán",
+        "DescripcionBreve": "Pan rústico de corteza crujiente y miga densa, con semillas naturales",
+        "descripcion": "Pan denso, nutritivo y con carácter. Elaborado con harinas integrales de centeno y trigo, semillas naturales y masa madre fermentada lentamente. Inspirado en la tradición panadera alemana, pero hecho aquí, con ingredientes de calidad local.",
+        "detalles": {
+            "miga": "Oscura y compacta",
+            "sabor": "Ligeramente ácido, con notas tostadas",
+            "ideal_para": "Desayunos potentes, tostadas gourmet o quienes buscan un pan de verdad",
+            "conservacion": "Larga, sin aditivos",
+            "ingredientes_principales": [
+            "Harina de centeno integral",
+            "Harina de trigo",
+            "Semillas naturales",
+            "Masa madre"
+          ]
+        },
+        "imagenes":{
+          "imagen1":"Imagenes/pan/aleman.jpg"
+        }
+    },
+
+    {
+        "id": 2,
+        "nombre": "Pan de Espelta Artesano",
+        "DescripcionBreve":"Pan artesanal, 100% espelta, ideal para una buena dieta y equilibrada",
+        "descripcion": "Pan suave, nutritivo y lleno de sabor, elaborado con harina de espelta integral y masa madre natural. Su sabor ligeramente dulce y su miga tierna hacen de este pan una opción ideal para quienes buscan una alternativa saludable y deliciosa al pan tradicional.",
+        "detalles": {
+          "miga": "Ligera y aireada",
+          "sabor": "Dulce y suave, con toques terrosos",
+          "ideal_para": "Desayunos saludables, sándwiches, tostadas o acompañar comidas ligeras",
+          "conservacion": "Mantiene su frescura durante más días gracias a su alta hidratación y la masa madre",
+          "ingredientes_principales": [
+            "Harina de espelta integral",
+            "Agua",
+            "Masa madre natural",
+            "Sal",
+            "Toque de miel"
+          ]
+        },
+        "imagenes":{
+          "imagen1":"Imagenes/pan/espelta.jpg"
+        }
+    },
+
+    {
+        "id": 3,
+        "nombre": "Pan de pasas y nueces",
+        "DescripcionBreve":"Pan suave con toques dulces de pasas y el sabor tostado de las nueces",
+        "descripcion": "Este pan artesanal es una deliciosa combinación de pasas dulces y nueces crujientes, horneado con harina integral y masa madre. Su sabor equilibrado y su textura suave con trozos de nueces y pasas lo convierten en una opción perfecta para disfrutar a cualquier hora del día, ya sea solo, en tostadas o como acompañamiento de una comida ligera.",
+        "detalles": {
+            "miga": "Suave y húmeda, con trozos crujientes de nuez y dulces pasas",
+            "sabor": "Dulce y ligeramente tostado, con notas de frutos secos",
+            "ideal_para": "Desayunos, meriendas, acompañar ensaladas o como snack saludable",
+            "conservacion": "Conserva su frescura durante más días gracias a la humedad de las pasas y la masa madre",
+            "ingredientes_principales": [
+            "Harina integral",
+            "Agua",
+            "Masa madre natural",
+            "Pasas",
+            "Nueces",
+            "Sal",
+            "Toque de miel"
+            ]
+        },
+        "imagenes":{
+          "imagen1":"Imagenes/pan/pasasYnueces.jpg"
+        }
+    },
+
+    {
+        "id": 4,
+        "nombre": "Pan de Chía",
+        "DescripcionBreve":"Es un pan rico en omega-03 y en fibra, perfecto para una alimentación equilibrada",
+        "descripcion": "Este pan artesanal está elaborado con harina integral y semillas de chía, que aportan una textura única y beneficios nutricionales. La chía, conocida por sus altos niveles de fibra y ácidos grasos omega-3, convierte a este pan en una opción excelente para quienes buscan una alternativa saludable y nutritiva, sin renunciar al sabor.",
+        "detalles": {
+          "miga": "Suave y densa, con un toque crujiente de semillas de chía",
+          "sabor": "Sutil y ligeramente a nuez, con un toque fresco gracias a las semillas de chía",
+          "ideal_para": "Desayunos, meriendas, acompañar ensaladas, o como base para tostadas saludables",
+          "conservacion": "Mantiene su frescura durante más días gracias a la humedad de las semillas de chía",
+          "ingredientes_principales": [
+            "Harina integral",
+            "Agua",
+            "Masa madre natural",
+            "Semillas de chía",
+            "Sal",
+            "Toque de miel"
+          ]
+        },
+        "imagenes":{
+          "imagen1":"Imagenes/pan/PAN DE CHIAcopy.jpg"
+        }
+      },
+
+      {
+        "id": 5,
+        "nombre": "Pan de masa madre",
+        "DescripcionBreve":"Es un pan con una fermentación lenta pero con un sabor único y una textura aireada",
+        "descripcion": "Este pan de masa madre está elaborado mediante una fermentación lenta y natural, lo que le confiere un sabor complejo, ligeramente ácido, y una textura inigualable. Su corteza crujiente y su miga alveolada lo hacen ideal tanto para consumir solo como para acompañar todo tipo de comidas. Es una opción saludable, digestiva y llena de carácter.",
+        "detalles": {
+          "miga": "Alveolada y elástica, con buena hidratación",
+          "sabor": "Profundo y ligeramente ácido, con matices tostados",
+          "ideal_para": "Tostadas, tablas de quesos, acompañar platos principales o comer solo con aceite de oliva",
+          "conservacion": "Gracias a su fermentación natural, se conserva fresco y sabroso durante más días",
+          "ingredientes_principales": [
+            "Harina de trigo",
+            "Agua",
+            "Masa madre natural",
+            "Sal"
+          ]
+        },
+        "imagenes":{
+          "imagen1":"Imagenes/pan/masaMadreCopy.jpg",
+          "imagen2": "Imagenes/pan/masMadre.jpg"
+        }
+      },
+
+      {
+        "id": 6,
+        "nombre": "Pan de Centeno",
+        "DescripcionBreve":"Pan oscuro, denso y nutritivo, ideal para desayunos energéticos",
+        "descripcion": "El pan de centeno artesano se elabora con harina de centeno integral y masa madre, lo que le otorga un sabor intenso, ligeramente ácido, y una textura más densa. Rico en fibra y minerales, es perfecto para quienes buscan un pan más saciante y saludable. Su perfil rústico lo convierte en el acompañamiento ideal para platos fuertes o desayunos energéticos.",
+        "detalles": {
+          "miga": "Densa y húmeda, con textura compacta",
+          "sabor": "Intenso y terroso, con un toque ácido propio del centeno y la masa madre",
+          "ideal_para": "Desayunos energéticos, acompañar platos de cuchara, embutidos o quesos curados",
+          "conservacion": "Se mantiene en buen estado durante varios días gracias a su alta hidratación y densidad",
+          "ingredientes_principales": [
+            "Harina de centeno integral",
+            "Agua",
+            "Masa madre natural",
+            "Sal"
+          ]
+        },
+        "imagenes":{
+          "imagen1":"Imagenes/pan/centeno1.jpg",
+          "imagen2":"Imagenes/pan/centeno2.jpg"
+        }
+      },
+
+      {
+        "id": 7,
+        "nombre": "Pan de Chocolate y naranja",
+        "DescripcionBreve":"Es un pan especial para aquellas personas que sean muy golos@s, con trozos de chocolate y ralladura de naranja",
+        "descripcion": "Este pan artesanal combina el sabor intenso del chocolate negro con el frescor cítrico de la naranja. Elaborado con masa madre y harina integral, ofrece una miga tierna, aromática y llena de contrastes. Perfecto para quienes buscan un pan dulce pero equilibrado, ideal para disfrutar solo o acompañado de una bebida caliente.",
+        "detalles": {
+            "miga": "Tierna y húmeda, con trozos de chocolate y notas cítricas",
+            "sabor": "Equilibrado entre dulce e intenso, con el contraste del cacao y la naranja",
+            "ideal_para": "Desayunos, meriendas o como postre ligero acompañado de café o té",
+            "conservacion": "Gracias a la masa madre y al contenido de cacao, mantiene su frescura y sabor varios días",
+            "ingredientes_principales": [
+            "Harina integral",
+            "Agua",
+            "Masa madre natural",
+            "Chocolate negro en trozos",
+            "Ralladura de naranja natural",
+            "Sal",
+            "Toque de miel"
+            ]
+        },
+        "imagenes":{
+          "imagen1":"Imagenes/pan/chocoNaranjaCopy.jpg",
+          "imagen2":"Imagenes/pan/chocoNaranja.jpg"
+        }
+      }
+
+      
+]
