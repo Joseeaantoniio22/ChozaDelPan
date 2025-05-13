@@ -13,7 +13,7 @@ fetch('JS/JSON/dulces.json')
                 <h2> ${p.nombre}</h2>
                 <p>${p.DescripcionBreve}</p>
                 <div class="dulce-footer">
-                <a class="btn" href="/html/dulce.html?id=${p.id}">Más información +</a>
+                <a class="btn" href="html/dulce.html?id=${p.id}">Más información +</a>
                 </div>
                 `;
                 contenedor.appendChild(div);
