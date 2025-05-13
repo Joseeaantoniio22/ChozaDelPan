@@ -13,7 +13,7 @@ fetch('../JS/JSON/panes.json')
 
     document.getElementById("detalle-Pan").innerHTML = `
         <h1>${pan.nombre}</h1>
-        <img src="/${pan.imagenes.imagen1}" alt="${pan.nombre}">
+        <img src="../${pan.imagenes.imagen1}" alt="${pan.nombre}">
         <p><strong>Descripción:</strong> ${pan.descripcion}</p>
         <h3>Detalles:</h3>
         <ul>
@@ -26,7 +26,7 @@ fetch('../JS/JSON/panes.json')
         <ul>
             ${pan.detalles.ingredientes_principales.map(ing => `<li>${ing}</li>`).join("")}
         </ul>
-        <a href="/nuestrospanes.html" class="btn-volver">← Volver al catálogo</a>
+        <a href="../nuestrospanes.html" class="btn-volver">← Volver al catálogo</a>
     `;
 })
 .catch(err => {
