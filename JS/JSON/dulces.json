@@ -1,10 +1,11 @@
 [
     {
         "id": 1,
-        "imagen": "Imagenes/dulces/croissant.jpg",
         "nombre": "Croissant",
+        "imagen": "Imagenes/index/hecho.jpeg",
         "DescripcionBreve": "Delicioso croissant de mantequilla, crujiente por fuera y suave por dentro.",
         "descripcion": "El croissant es un panecillo hojaldrado de origen europeo, famoso por su forma de media luna y textura ligera y crujiente. Se elabora con una masa rica en mantequilla, que se pliega varias veces para crear capas finas que se expanden al hornearse.",
+        "sabores": "Contamos con distintos sabores de croissants, bañados y rellenos de: kinder, chocolate, chocolate blanco y pistacho, entre ellos.",
         "detalles": {
             "textura": "Exterior crujiente e interior suave y hojaldrado",
             "sabor": "Equilibrado, mantecoso y ligeramente dulce",
@@ -17,11 +18,19 @@
                 "Azúcar",
                 "Sal"
             ]
+        },
+        "Imagenes":{
+            "imagen2":"/Imagenes/dulces/Copycroissant.jpg"
+        },
+        "proceso": {
+            "imagen1": "/Imagenes/index/masa.jpeg",
+            "imagen2": "/Imagenes/index/forma.jpeg",
+            "imagen3": "Imagenes/index/hecho.jpeg"
         }
     },
     {
         "id": 2,
-        "imagen" : "Imagenes/dulces/avanicosFeria.jpg",
+        "imagen": "Imagenes/dulces/avanicosFeria.jpg",
         "nombre": "Abanicos de Feria",
         "DescripcionBreve": "Deliciosos avanicos con una capa de azúcar glas, perfectos para acompañar el café.",
         "descripcion": "Crujiente, bañado en azúcar y con sabor a infancia. Un clásico irresistible de las ferias.",

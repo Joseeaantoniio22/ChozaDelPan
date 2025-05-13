@@ -163,7 +163,98 @@
           "imagen1":"Imagenes/pan/chocoNaranjaCopy.jpg",
           "imagen2":"Imagenes/pan/chocoNaranja.jpg"
         }
-      }
+      },
 
-      
+      {
+          "id": 8,
+          "nombre": "Pan Cateto",
+          "DescripcionBreve": "Pan tradicional andaluz de miga densa, elaborado con masa madre y harina candeal.",
+          "descripcion": "El Pan Cateto es un pan típico de Andalucía, reconocido por su corteza gruesa y su miga compacta. Elaborado con harina candeal y masa madre, este pan se caracteriza por su sabor auténtico y su excelente conservación. Su textura firme lo hace ideal para acompañar guisos, sopas y platos tradicionales. Gracias a su elaboración artesanal, mantiene sus propiedades durante varios días.",
+          "detalles": {
+            "miga": "Compacta y firme, ligeramente húmeda, ideal para acompañar comidas",
+            "sabor": "Intenso y tradicional, con notas a cereal por la harina candeal",
+            "ideal_para": "Acompañar platos típicos, mojar en salsas, o como base de tostadas",
+            "conservacion": "Gracias a su baja hidratación y corteza gruesa, se conserva bien varios días si se guarda en lugar fresco y seco",
+            "ingredientes_principales": [
+              "Harina candeal",
+              "Agua",
+              "Masa madre natural",
+              "Sal"
+            ]
+          },        
+        "imagenes":{
+          "imagen1":"Imagenes/pan/cateto2.jpg",
+          "imagen2":"Imagenes/pan/cateto.jpg"
+        }
+      },
+
+        {
+          "id": 9,
+          "nombre": "Pan de Espelta Integral con Miel y Pasas",
+          "DescripcionBreve": "Pan nutritivo y aromático elaborado con harina de espelta integral, miel natural y pasas jugosas.",
+          "descripcion": "Este pan combina lo mejor de la espelta integral con el dulzor natural de la miel y la textura suave de las pasas. Rico en fibra, minerales y sabor, es una opción saludable y deliciosa para quienes buscan un pan con carácter pero equilibrado. Gracias a su fermentación lenta con masa madre, ofrece una miga húmeda y un aroma inconfundible. Ideal para desayunos completos o para disfrutar con quesos suaves y frutas.",
+          "detalles": {
+            "miga": "Húmeda, tierna y ligeramente dulce, con pasas distribuidas uniformemente",
+            "sabor": "Suave y equilibrado, con el dulzor natural de la miel y las notas afrutadas de las pasas",
+            "ideal_para": "Desayunos saludables, tostadas dulces o para acompañar quesos frescos",
+            "conservacion": "Gracias a la miel y la masa madre, se mantiene tierno y sabroso durante varios días si se conserva bien envuelto",
+            "ingredientes_principales": [
+              "Harina de espelta integral",
+              "Agua",
+              "Masa madre natural",
+              "Miel",
+              "Pasas",
+              "Sal"
+            ]
+          },        
+      "imagenes":{
+        "imagen1":"Imagenes/pan/espeltaIntegral.jpg"
+      }
+      },
+
+      {
+        "id": 10,
+        "nombre": "Pan de Maíz",
+        "DescripcionBreve": "Pan rústico y ligeramente dulce, elaborado con harina de maíz y trigo, ideal para acompañar platos tradicionales.",
+        "descripcion": "El Pan de Maíz es un pan de origen rural con una miga amarilla característica y una textura suave pero compacta. Su sabor ligeramente dulce y su aroma natural provienen de la harina de maíz combinada con harina de trigo. Este pan artesanal es perfecto para acompañar platos de cuchara, carnes asadas o simplemente para disfrutarlo solo con un poco de aceite de oliva. Su elaboración lenta y tradicional le otorga una corteza crujiente y una conservación prolongada.",
+        "detalles": {
+          "miga": "Amarilla, compacta y algo granulada, con buena humedad interior",
+          "sabor": "Suave, con un toque ligeramente dulce y notas terrosas del maíz",
+          "ideal_para": "Platos tradicionales, guisos, sopas o como base para tostadas saladas",
+          "conservacion": "Gracias a su estructura densa y corteza gruesa, se conserva bien durante 2-3 días en un lugar fresco y seco",
+          "ingredientes_principales": [
+            "Harina de maíz",
+            "Harina de trigo",
+            "Agua",
+            "Masa madre natural",
+            "Sal"
+          ]
+        },
+        "imagenes":{
+          "imagen1":"Imagenes/pan/PAN DE MAIZ.jpg",
+          "imagen2":"Imagenes/pan/PAN DE MAIZ.png"
+        }
+    },
+
+    {
+      "id": 11,
+      "nombre": "Pan Payés",
+      "DescripcionBreve": "Pan rústico de gran tamaño, corteza gruesa y miga alveolada, ideal para compartir o hacer tostadas tradicionales.",
+      "descripcion": "El Pan Payés es un pan tradicional de origen rural catalán, caracterizado por su gran tamaño, su forma redonda y su corteza crujiente. Elaborado con masa madre y una fermentación lenta, este pan presenta una miga esponjosa, aireada y sabrosa. Su sabor profundo y natural lo convierte en un clásico ideal para acompañar embutidos, hacer tostadas o servir como base para 'pa amb tomàquet'. Su gran capacidad de conservación lo hace perfecto para el día a día.",
+      "detalles": {
+        "miga": "Esponjosa, con alveolos grandes y textura ligera pero consistente",
+        "sabor": "Tradicional y ligeramente ácido gracias a la fermentación natural",
+        "ideal_para": "Tostadas, bocadillos, acompañar embutidos",
+        "conservacion": "Gracias a su elaboración con masa madre y su corteza gruesa, se conserva fresco durante varios días",
+        "ingredientes_principales": [
+          "Harina de trigo",
+          "Agua",
+          "Masa madre natural",
+          "Sal"
+        ]
+      },
+      "imagenes":{
+        "imagen1":"Imagenes/pan/payes.jpg"
+      }
+  }
 ]

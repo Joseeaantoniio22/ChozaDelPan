@@ -2,10 +2,11 @@ body {
     background: linear-gradient(135deg, #fff3e6, #fde6d4);
     font-family: "Poppins", sans-serif;
     color: #333;
+    display: flex;
 }
 
 /* Contenedor principal del detalle */
-.contenedor-detalle {
+.panes {
     max-width: 900px;
     margin: 50px auto;
     background: #fff;
@@ -16,12 +17,12 @@ body {
     transition: transform 0.3s ease;
 }
 
-.contenedor-detalle:hover {
+.panes:hover {
     transform: scale(1.01);
 }
 
 /* Título principal */
-.contenedor-detalle h1 {
+.panes h1 {
     font-size: 2.6em;
     color: #d35400;
     margin-bottom: 15px;
@@ -29,7 +30,7 @@ body {
 }
 
 /* Imagen del dulce */
-.contenedor-detalle img {
+.panes img {
     width: 100%;
     max-width: 450px;
     border-radius: 16px;
@@ -41,14 +42,14 @@ body {
     filter: brightness(1.03) contrast(1.05);
 }
 
-.contenedor-detalle img:hover {
+.panes img:hover {
     transform: scale(1.03);
     filter: brightness(1.1) contrast(1.1);
 }
 
 
 /* Descripción general */
-.contenedor-detalle p {
+.panes p {
     font-size: 1.2em;
     line-height: 1.7;
     margin: 10px 0 25px;
@@ -56,8 +57,8 @@ body {
 }
 
 /* Subtítulos */
-.contenedor-detalle h3,
-.contenedor-detalle h4 {
+.panes h3,
+.panes h4 {
     color: #a84300;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -67,13 +68,13 @@ body {
 }
 
 /* Listas */
-.contenedor-detalle ul {
+.panes ul {
     list-style: square;
     padding-left: 30px;
     text-align: left;
 }
 
-.contenedor-detalle ul li {
+.panes ul li {
     margin-bottom: 10px;
     font-size: 1.1em;
     color: #555;
@@ -99,40 +100,6 @@ body {
     transform: translateY(-2px);
 }
 
-.proceso-imagenes {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: center;
-}
-
-.paso {
-    text-align: center;
-    max-width: 260px;
-    flex: 1 1 220px;
-}
-
-.paso img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.paso img:hover {
-    transform: scale(1.05);
-}
-
-.titulo-paso {
-    margin-bottom: 8px;
-    font-weight: bold;
-    color: #a84300;
-    font-size: 1em;
-}
-
-
 /* Animación */
 @keyframes fadeInUp {
     from {
@@ -147,15 +114,15 @@ body {
 
 /* Responsive */
 @media (max-width: 600px) {
-    .contenedor-detalle {
+    .panes {
         padding: 25px 20px;
     }
 
-    .contenedor-detalle h1 {
+    .panes h1 {
         font-size: 2em;
     }
 
-    .contenedor-detalle img {
+    .panes img {
         width: 100%;
     }
 
