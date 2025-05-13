@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const params = new URLSearchParams(window.location.search);
     const id = parseInt(params.get("id"));
 
-    fetch("/JS/JSON/dulces.json")
+    fetch('/JS/JSON/dulces.json')
         .then(res => res.json())
         .then(dulces => {
             const dulce = dulces.find(d => d.id === id);
