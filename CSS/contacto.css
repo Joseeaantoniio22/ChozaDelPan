@@ -205,14 +205,14 @@ button:hover {
     padding: 2rem;
 }
 
-.foto {
+.imagen {
     flex: 1;
     min-width: 320px;
     max-width: 500px;
 }
 
-.foto .imagen {
-    width: 100%;
+.imagen {
+    width: 37%;
     height: auto;
     border-radius: 16px;
     box-shadow: 0 8px 24px rgba(0,0,0,0.15);
