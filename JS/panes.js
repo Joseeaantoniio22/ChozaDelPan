@@ -20,7 +20,7 @@ fetch('../JS/JSON/panes.json')
         <h2>${p.nombre}</h2>
         <p>${p.DescripcionBreve}</p>
         <div class="pan-footer">
-          <a class="btn" href="/html/panes.html?id=${p.id}">Más información +</a>
+          <a class="btn" href="../html/panes.html?id=${p.id}">Más información +</a>
         </div>
       `;
 
