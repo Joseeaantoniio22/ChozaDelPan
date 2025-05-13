@@ -2,7 +2,7 @@
 const params = new URLSearchParams(window.location.search);
 const idPan = params.get('id');
 
-fetch('/JS/JSON/panes.json')
+fetch('../JS/JSON/panes.json')
   .then(res => res.json())
   .then(panes => {
     const pan = panes.find(p => p.id == idPan);
