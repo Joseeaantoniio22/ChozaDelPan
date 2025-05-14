@@ -20,7 +20,7 @@ fetch('../JS/JSON/panes.json')
             <li><strong>Miga: </strong> ${pan.detalles.miga}</li>
             <li><strong>Sabor:</strong> ${pan.detalles.sabor}</li>
             <li><strong>Ideal para:</strong> ${pan.detalles.ideal_para}</li>
-            <li><strong>Conservación: </strong> ${pan.detalles.conservación}</li>
+            <li><strong>Conservación: </strong> ${pan.detalles.conservacion}</li>
         </ul>
         <h4>Ingredientes principales:</h4>
         <ul>

@@ -159,11 +159,11 @@ nav ul li a {
     width: 40vh;
     height: 40vh;
     margin: 0 auto;
-  }
+}
   
   .animacion {
-    width: 14rem;
-    height: 14rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -176,8 +176,7 @@ nav ul li a {
     position: absolute;
     top: 1;
     left: 1;
-    width: 25rem;
-    height: 19rem;
+    height: 20rem;
     z-index: 1;
     animation: rotarTexto 20s linear infinite;
   }
@@ -189,9 +188,9 @@ nav ul li a {
   
   .texto-circular text {
     fill: white;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 2.3px;
     text-transform: uppercase;
   }
   
