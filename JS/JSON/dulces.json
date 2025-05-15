@@ -19,8 +19,8 @@
                 "Sal"
             ]
         },
-        "Imagenes":{
-            "imagen2":"/Imagenes/dulces/Copycroissant.jpg"
+        "Imagenes": {
+            "imagen2": "/Imagenes/dulces/Copycroissant.jpg"
         },
         "proceso": {
             "imagen1": "/Imagenes/index/masa.jpeg",
@@ -32,7 +32,7 @@
         "id": 2,
         "imagen": "Imagenes/dulces/avanicosFeria.jpg",
         "nombre": "Abanicos de Feria",
-        "DescripcionBreve": "Deliciosos avanicos con una capa de azúcar glas, perfectos para acompañar el café.",
+        "DescripcionBreve": "Deliciosos abanicos con una capa de azúcar glas, perfectos para acompañar el café.",
         "descripcion": "Crujiente, bañado en azúcar y con sabor a infancia. Un clásico irresistible de las ferias.",
         "detalles": {
             "textura": "Muy crujiente, dorado por fuera y ligeramente aireado por dentro",
@@ -109,15 +109,15 @@
         "id": 6,
         "imagen": "Imagenes/dulces/CAÑON.jpg",
         "nombre": "Cañón",
-        "DescripcionBreve": "Hojaldre enrollado, relleno de crema pastelera y espolvoreado con azúcar glas. Dulce y elegante.",
-        "descripcion": "El cañón es un postre de hojaldre enrollado y dorado, relleno generosamente de crema pastelera. Su forma cilíndrica y su acabado con azúcar glas lo convierten en un dulce clásico y visualmente atractivo.",
+        "DescripcionBreve": "Hojaldre enrollado, relleno de crema pastelera o chocolate , y espolvoreado con azúcar glas. Dulce y elegante.",
+        "descripcion": "El cañón es un postre de hojaldre enrollado y dorado, relleno generosamente de crema pastelera o chocolate. Su forma cilíndrica y su acabado con azúcar glas lo convierten en un dulce clásico y visualmente atractivo.",
         "detalles": {
-            "textura": "Exterior crujiente y laminado, interior suave por la crema. Contraste entre capas hojaldradas y relleno cremoso.",
-            "sabor": "Dulce, con notas suaves de vainilla y mantequilla, típico de la crema pastelera.",
+            "textura": "Exterior crujiente y laminado, interior suave por la crema o chocolate. Contraste entre capas hojaldradas y relleno cremoso.",
+            "sabor": "Dulce, con notas suaves de vainilla y mantequilla, típico de la crema pastelera o relleno de chocolate",
             "ideal_para": "Ideal como postre individual o para acompañar una bebida caliente.",
             "ingredientes_principales": [
                 "Masa de hojaldre",
-                "Crema pastelera",
+                "Crema pastelera o chocolate",
                 "Azúcar glas",
                 "Huevo (para dorar el hojaldre)"
             ]
@@ -125,22 +125,150 @@
     },
     {
         "id": 7,
-        "imagen": "Imagenes/dulces/tartas.jpeg",
-        "nombre": "Tarta",
-        "DescripcionBreve": "Deliciosa tarta artesanal con base de bizcocho, cremoso relleno y acabado con frutas frescas o chocolate.",
-        "descripcion": "Una tarta clásica, con una base suave y esponjosa, rellena de crema pastelera o nata montada, y decorada con frutas frescas, mermelada o chocolate. Perfecta para ocasiones especiales o como postre en cualquier comida.",
+        "imagen": "Imagenes/dulces/DONUTS.jpg",
+        "nombre": "Donuts",
+        "DescripcionBreve": "Donuts esponjosos y glaseados, con variedad de sabores y toppings irresistibles.",
+        "descripcion": "Clásicos donuts con textura suave y esponjosa, fritos a la perfección y cubiertos con glaseado de azúcar, chocolate o decoraciones coloridas. Disponibles en diferentes sabores como vainilla, chocolate o rellenos de crema y mermelada. Perfectos para un antojo dulce o para compartir con amigos.",
         "detalles": {
-            "textura": "Base suave y esponjosa, relleno cremoso y ligero, decorada con frutas frescas o un glaseado suave.",
-            "sabor": "Equilibrado entre la suavidad del bizcocho y la cremosidad del relleno, con un toque fresco de frutas o dulce de chocolate.",
-            "ideal_para": "Ideal para celebraciones, cumpleaños, o cualquier ocasión especial. Perfecta para acompañar con un café o té.",
+            "textura": "Exterior ligeramente crujiente con interior esponjoso y tierno. Cubiertos con glaseado brillante o azúcar.",
+            "sabor": "Dulce y delicioso, con variedad de sabores: vainilla, chocolate, fresa o rellenos como crema pastelera o mermelada.",
+            "ideal_para": "Perfectos para desayunos, meriendas, celebraciones o para acompañar un café en cualquier momento del día.",
+            "ingredientes_principales": [
+                "Harina de trigo",
+                "Levadura",
+                "Huevos",
+                "Azúcar",
+                "Leche",
+                "Mantequilla",
+                "Aceite para freír",
+                "Glaseado de azúcar o chocolate",
+                "Rellenos (opcional): crema, mermelada, etc."
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "imagen": "",
+        "nombre": "Napolitanas",
+        "DescripcionBreve": "Napolitanas de hojaldre rellenas de chocolate, crujientes por fuera y suaves por dentro.",
+        "descripcion": "Deliciosas napolitanas elaboradas con masa de hojaldre dorada y crujiente, rellenas con una barra de chocolate fundente en su interior. A menudo decoradas con azúcar glas o almíbar por encima. Un clásico de la bollería ideal para desayunos o meriendas.",
+        "detalles": {
+            "textura": "Exterior crujiente y laminado gracias al hojaldre, con interior suave y relleno cremoso de chocolate.",
+            "sabor": "Equilibrio entre el dulzor del chocolate y el sabor mantecoso del hojaldre. Puede llevar un toque de vainilla o almíbar.",
+            "ideal_para": "Perfectas para desayunos, meriendas o como acompañamiento de un café o chocolate caliente.",
+            "ingredientes_principales": [
+                "Masa de hojaldre",
+                "Chocolate negro o con leche",
+                "Mantequilla",
+                "Azúcar",
+                "Huevo (para dorar)",
+                "Azúcar glas o almíbar (opcional para decorar)"
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "imagen": "",
+        "nombre": "Bombas rellenas",
+        "DescripcionBreve": "Bombas dulces esponjosas, rellenas de chocolate o crema, cubiertas con azúcar.",
+        "descripcion": "Suaves y esponjosas bombas dulces, fritas y rellenas con crema pastelera o chocolate fundido (tenemos mas sabores pero no son habituales, si quieres poner, consulta con nuestro personal para los sabores disponibles.). Se espolvorean con azúcar para un acabado irresistible. Una delicia tradicional que combina una textura tierna con un centro cremoso, ideal para los amantes del dulce.",
+        "detalles": {
+            "textura": "Masa aireada y esponjosa por fuera, con interior cremoso gracias al relleno. Exterior ligeramente crujiente y azucarado.",
+            "sabor": "Dulce y suave, con contraste entre la masa ligera y el intenso sabor del relleno de crema o chocolate.",
+            "ideal_para": "Ideales para meriendas, celebraciones, o como capricho dulce en cualquier momento del día.",
+            "ingredientes_principales": [
+                "Harina de trigo",
+                "Huevos",
+                "Levadura",
+                "Azúcar",
+                "Leche",
+                "Mantequilla",
+                "Aceite para freír",
+                "Relleno de crema pastelera o chocolate",
+                "Azúcar glas o granulada para decorar"
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "imagen": "Imagenes/dulces/hojaldre_fruta.jpeg",
+        "nombre": "Hojaldre de fruta",
+        "DescripcionBreve": "Crujiente hojaldre horneado y cubierto con frutas frescas o cocidas y un toque de brillo dulce.",
+        "descripcion": "Delicado pastel de hojaldre, horneado hasta obtener una textura crujiente y ligera, cubierto con frutas frescas o cocidas como manzana, fresa, durazno o kiwi. Puede llevar una fina capa de crema pastelera en la base y está glaseado para darle brillo. Ideal como postre o merienda elegante.",
+        "detalles": {
+            "textura": "Base de hojaldre ligera y crujiente, con capa cremosa opcional y cubierta de frutas jugosas.",
+            "sabor": "Refrescante y dulce, con el sabor natural de las frutas complementado por el hojaldre mantecoso y un suave glaseado.",
+            "ideal_para": "Perfecto para postres, meriendas o eventos especiales. Acompaña muy bien con té, café o una copa de vino dulce.",
+            "ingredientes_principales": [
+                "Masa de hojaldre",
+                "Frutas frescas (manzana, fresa, kiwi, durazno, etc.)",
+                "Crema pastelera (opcional)",
+                "Azúcar",
+                "Mermelada o gelatina para glasear",
+                "Huevo (para dorar el hojaldre)"
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "imagen": "Imagenes/dulces/hojaldre_manzana.jpeg",
+        "nombre": "Hojaldre de manzana",
+        "DescripcionBreve": "Crujiente hojaldre relleno y cubierto con finas láminas de manzana caramelizada.",
+        "descripcion": "Delicioso hojaldre horneado con finas rodajas de manzana dispuestas sobre una base de masa crujiente. Puede incluir una fina capa de crema pastelera o compota de manzana y se glasea con mermelada de albaricoque o azúcar para un acabado brillante. Una opción tradicional, sencilla y exquisita.",
+        "detalles": {
+            "textura": "Base crujiente y dorada de hojaldre, con manzanas tiernas y ligeramente caramelizadas en la superficie.",
+            "sabor": "Equilibrio perfecto entre la dulzura suave de la manzana, el toque ácido natural y la riqueza del hojaldre mantecoso.",
+            "ideal_para": "Ideal como postre, merienda o para acompañar una taza de té o café. Perfecto para reuniones familiares o eventos especiales.",
+            "ingredientes_principales": [
+                "Masa de hojaldre",
+                "Manzanas (preferiblemente verdes o tipo Golden)",
+                "Azúcar",
+                "Mantequilla",
+                "Mermelada de albaricoque (para glasear)",
+                "Canela (opcional)",
+                "Crema pastelera o compota de manzana (opcional)"
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "imagen": "Imagenes/dulces/magdalenas.jpeg",
+        "nombre": "Magdalenas",
+        "DescripcionBreve": "Magdalenas esponjosas y doradas, con un sabor suave y un toque casero inconfundible.",
+        "descripcion": "Magdalenas tradicionales elaboradas con ingredientes simples y naturales. De textura esponjosa y sabor delicadamente dulce, pueden llevar un toque de ralladura de limón o vainilla. Perfectas para acompañar el desayuno o la merienda, solas o con una bebida caliente.",
+        "detalles": {
+            "textura": "Interior suave y esponjoso con una ligera costra dorada en la parte superior.",
+            "sabor": "Dulce y ligero, con notas de vainilla o cítricos según la receta. Un sabor casero y reconfortante.",
+            "ideal_para": "Perfectas para el desayuno, la merienda o para llevar como snack. También ideales para niños y celebraciones sencillas.",
             "ingredientes_principales": [
                 "Harina de trigo",
                 "Huevos",
                 "Azúcar",
-                "Mantequilla",
-                "Crema pastelera o nata montada",
-                "Frutas frescas (fresas, kiwi, durazno, etc.)",
-                "Chocolate (opcional para decoración)"
+                "Aceite o mantequilla",
+                "Leche",
+                "Levadura química (polvo de hornear)",
+                "Ralladura de limón o esencia de vainilla"
+            ]
+        }
+    },
+    {
+        "id": 14,
+        "imagen": "Imagenes/dulces/bizcochos.jpeg",
+        "nombre": "Bizcochos",
+        "DescripcionBreve": "Bizcochos caseros, esponjosos y dorados, perfectos para acompañar con café o chocolate.",
+        "descripcion": "Clásicos bizcochos elaborados con una mezcla suave de huevos, azúcar, harina y un toque de cítricos o vainilla. Horneados hasta lograr una textura esponjosa y un dorado irresistible. Pueden servirse solos, espolvoreados con azúcar glas o como base para tartas y postres más elaborados.",
+        "detalles": {
+            "textura": "Interior aireado y esponjoso, con corteza ligeramente crujiente y dorada.",
+            "sabor": "Dulce y suave, con toques de vainilla, limón o naranja. Ideal para acompañar bebidas calientes.",
+            "ideal_para": "Perfectos para el desayuno, la merienda o como base de tartas y postres. También ideales para mojar en café, té o leche.",
+            "ingredientes_principales": [
+                "Harina de trigo",
+                "Huevos",
+                "Azúcar",
+                "Leche o yogur (según receta)",
+                "Aceite o mantequilla",
+                "Levadura química (polvo de hornear)",
+                "Ralladura de limón o esencia de vainilla"
             ]
         }
     }

@@ -1,30 +1,30 @@
 [
     {
-        "id":1,
-        "nombre": "Pan alemán",
-        "DescripcionBreve": "Pan rústico de corteza crujiente y miga densa, con semillas naturales",
-        "descripcion": "Pan denso, nutritivo y con carácter. Elaborado con harinas integrales de centeno y trigo, semillas naturales y masa madre fermentada lentamente. Inspirado en la tradición panadera alemana, pero hecho aquí, con ingredientes de calidad local.",
-        "detalles": {
-            "miga": "Oscura y compacta",
-            "sabor": "Ligeramente ácido, con notas tostadas",
-            "ideal_para": "Desayunos potentes, tostadas gourmet o quienes buscan un pan de verdad",
-            "conservacion": "Larga, sin aditivos",
-            "ingredientes_principales": [
-            "Harina de centeno integral",
-            "Harina de trigo",
-            "Semillas naturales",
-            "Masa madre"
-          ]
-        },
+      "id": 1,
+      "nombre": "Pan 100% Integral",
+      "DescripcionBreve": "Pan elaborado únicamente con harina integral, rico en fibra y sabor auténtico.",
+      "descripcion": "Pan saludable y lleno de carácter, hecho exclusivamente con harina de trigo integral y masa madre natural. Su miga densa y su sabor profundo lo convierten en una excelente opción para quienes buscan una alimentación equilibrada y nutritiva, sin renunciar al placer del buen pan.",
+      "detalles": {
+      "miga": "Compacta pero suave",
+      "sabor": "Intenso y ligeramente tostado",
+      "ideal_para": "Desayunos saciantes, acompañar platos principales o preparar tostadas nutritivas",
+      "conservacion": "Buena duración gracias a la masa madre y la alta hidratación",
+      "ingredientes_principales": [
+        "Harina de trigo 100% integral",
+        "Agua",
+        "Masa madre natural",
+        "Sal"
+      ]
+      },
         "imagenes":{
-          "imagen1":"Imagenes/pan/aleman.jpg"
+          "imagen1":""
         }
     },
 
     {
         "id": 2,
-        "nombre": "Pan de Espelta Artesano",
-        "DescripcionBreve":"Pan artesanal, 100% espelta, ideal para una buena dieta y equilibrada",
+        "nombre": "Pan de Espelta 100% Integral",
+        "DescripcionBreve":"Pan artesanal, 100% espelta integral, ideal para una buena dieta y equilibrada",
         "descripcion": "Pan suave, nutritivo y lleno de sabor, elaborado con harina de espelta integral y masa madre natural. Su sabor ligeramente dulce y su miga tierna hacen de este pan una opción ideal para quienes buscan una alternativa saludable y deliciosa al pan tradicional.",
         "detalles": {
           "miga": "Ligera y aireada",
@@ -35,8 +35,7 @@
             "Harina de espelta integral",
             "Agua",
             "Masa madre natural",
-            "Sal",
-            "Toque de miel"
+            "Sal"
           ]
         },
         "imagenes":{
@@ -70,26 +69,24 @@
     },
 
     {
-        "id": 4,
-        "nombre": "Pan de Chía",
-        "DescripcionBreve":"Es un pan rico en omega-03 y en fibra, perfecto para una alimentación equilibrada",
-        "descripcion": "Este pan artesanal está elaborado con harina integral y semillas de chía, que aportan una textura única y beneficios nutricionales. La chía, conocida por sus altos niveles de fibra y ácidos grasos omega-3, convierte a este pan en una opción excelente para quienes buscan una alternativa saludable y nutritiva, sin renunciar al sabor.",
+        "id": 8,
+        "nombre": "Pan de Trigo Sarraceno",
+        "DescripcionBreve": "Pan sin gluten natural, con un sabor único y textura reconfortante.",
+        "descripcion": "Elaborado con harina de trigo sarraceno y masa madre sin gluten, este pan es ideal para quienes buscan una alternativa saludable y digestiva. Su sabor profundo, ligeramente terroso, y su miga húmeda lo convierten en una opción excelente tanto para el día a día como para ocasiones especiales.",
         "detalles": {
-          "miga": "Suave y densa, con un toque crujiente de semillas de chía",
-          "sabor": "Sutil y ligeramente a nuez, con un toque fresco gracias a las semillas de chía",
-          "ideal_para": "Desayunos, meriendas, acompañar ensaladas, o como base para tostadas saludables",
-          "conservacion": "Mantiene su frescura durante más días gracias a la humedad de las semillas de chía",
-          "ingredientes_principales": [
-            "Harina integral",
+        "miga": "Densa y húmeda",
+        "sabor": "Terroso, con notas suaves a nuez",
+        "ideal_para": "Personas con sensibilidad al gluten, desayunos nutritivos, tostadas o acompañar platos de cuchara",
+        "conservacion": "Se mantiene fresco durante varios días gracias a su alto contenido de humedad",
+        "ingredientes_principales": [
+            "Harina de trigo sarraceno",
             "Agua",
-            "Masa madre natural",
-            "Semillas de chía",
-            "Sal",
-            "Toque de miel"
+            "Masa madre sin gluten",
+            "Sal"
           ]
         },
         "imagenes":{
-          "imagen1":"Imagenes/pan/PAN DE CHIAcopy.jpg"
+          "imagen1":""
         }
       },
 
@@ -127,7 +124,8 @@
           "ideal_para": "Desayunos energéticos, acompañar platos de cuchara, embutidos o quesos curados",
           "conservacion": "Se mantiene en buen estado durante varios días gracias a su alta hidratación y densidad",
           "ingredientes_principales": [
-            "Harina de centeno integral",
+            "70% harina de centeno integral",
+            "30% harina espelta integral",
             "Agua",
             "Masa madre natural",
             "Sal"
@@ -155,8 +153,7 @@
             "Masa madre natural",
             "Chocolate negro en trozos",
             "Ralladura de naranja natural",
-            "Sal",
-            "Toque de miel"
+            "Sal"
             ]
         },
         "imagenes":{
@@ -168,15 +165,15 @@
       {
           "id": 8,
           "nombre": "Pan Cateto",
-          "DescripcionBreve": "Pan tradicional andaluz de miga densa, elaborado con masa madre y harina candeal.",
-          "descripcion": "El Pan Cateto es un pan típico de Andalucía, reconocido por su corteza gruesa y su miga compacta. Elaborado con harina candeal y masa madre, este pan se caracteriza por su sabor auténtico y su excelente conservación. Su textura firme lo hace ideal para acompañar guisos, sopas y platos tradicionales. Gracias a su elaboración artesanal, mantiene sus propiedades durante varios días.",
+          "DescripcionBreve": "Pan tradicional andaluz de miga densa, elaborado con masa madre y harina de trigo duro.",
+          "descripcion": "El Pan Cateto es un pan típico de Andalucía, reconocido por su corteza gruesa y su miga compacta. Elaborado con harina de trigo duro y masa madre, este pan se caracteriza por su sabor auténtico y su excelente conservación. Su textura firme lo hace ideal para acompañar guisos, sopas y platos tradicionales. Gracias a su elaboración artesanal, mantiene sus propiedades durante varios días.",
           "detalles": {
             "miga": "Compacta y firme, ligeramente húmeda, ideal para acompañar comidas",
             "sabor": "Intenso y tradicional, con notas a cereal por la harina candeal",
             "ideal_para": "Acompañar platos típicos, mojar en salsas, o como base de tostadas",
             "conservacion": "Gracias a su baja hidratación y corteza gruesa, se conserva bien varios días si se guarda en lugar fresco y seco",
             "ingredientes_principales": [
-              "Harina candeal",
+              "Harina de trigo duro",
               "Agua",
               "Masa madre natural",
               "Sal"
@@ -248,6 +245,8 @@
         "conservacion": "Gracias a su elaboración con masa madre y su corteza gruesa, se conserva fresco durante varios días",
         "ingredientes_principales": [
           "Harina de trigo",
+          "Harina de trigo duro",
+          "Harina de centeno",
           "Agua",
           "Masa madre natural",
           "Sal"
