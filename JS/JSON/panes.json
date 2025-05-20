@@ -17,7 +17,7 @@
       ]
       },
         "imagenes":{
-          "imagen1":""
+          "imagen1":"Imagenes/pan/integral.jpg"
         }
     },
 
@@ -254,6 +254,30 @@
       },
       "imagenes":{
         "imagen1":"Imagenes/pan/payes.jpg"
+      }
+  },
+
+   {
+      "id": 12,
+      "nombre": "Pan de Curry con Pasas",
+      "DescripcionBreve": "Un pan exótico y aromático, con el toque dulce de las pasas y el carácter del curry.",
+      "descripcion": "Este pan combina especias cálidas con el dulzor natural de las pasas, creando una experiencia única para el paladar. La mezcla de harina artesanal, curry suave y pasas jugosas lo convierte en una opción atrevida y deliciosa para quienes buscan sabores diferentes en cada bocado.",
+      "detalles": {
+          "miga": "Amarilla, esponjosa y ligeramente húmeda",
+          "sabor": "Aromático, especiado con un toque dulce",
+          "ideal_para": "Acompañar platos de cocina india, quesos suaves, o para disfrutarlo solo en una merienda original",
+          "conservacion": "Se mantiene fresco varios días gracias a su alta hidratación y las pasas",
+          "ingredientes_principales": [
+            "Harina de trigo",
+            "Pasas sultanas",
+            "Curry suave en polvo",
+            "Agua",
+            "Masa madre natural",
+            "Sal"
+          ]
+        },
+      "imagenes":{
+        "imagen1":"Imagenes/pan/"
       }
   }
 ]

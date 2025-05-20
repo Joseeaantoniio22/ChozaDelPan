@@ -26,7 +26,12 @@
             "imagen1": "/Imagenes/index/masa.jpeg",
             "imagen2": "/Imagenes/index/forma.jpeg",
             "imagen3": "Imagenes/index/hecho.jpeg"
+        },
+        "alergenos":{
+            "gluten":"/Imagenes/gluten.png",
+            "cacahuetes":""
         }
+        
     },
     {
         "id": 2,
@@ -50,10 +55,10 @@
     },
     {
         "id": 3,
-        "imagen": "Imagenes/dulces/palemraGrande.jpg",
-        "nombre": "Palmeras Grandes",
-        "DescripcionBreve": "Palmeras de gran tamaño, crujientes y caramelizadas, ideales para compartir o darte un buen capricho.",
-        "descripcion": "Hojaldre en forma de corazón gigante, con un toque dorado y azúcar crujiente. Un clásico de la pastelería que nunca falla.",
+        "imagen": "Imagenes/dulces/palmeras.jpg",
+        "nombre": "Palmeras",
+        "DescripcionBreve": "Palmeras de tamaño chico o grande, crujientes, ideales para compartir o darte un buen capricho.",
+        "descripcion": "Hojaldre en forma de corazón, con un toque dorado y azúcar crujiente. Un clásico de la pastelería que nunca falla.",
         "detalles": {
             "textura": "Crujiente por fuera, con capas ligeras y aireadas por dentro. Borde caramelizado.",
             "sabor": "Dulce, mantecoso, con notas de caramelo por el azúcar fundido al hornear.",
@@ -62,7 +67,8 @@
                 "Masa de hojaldre",
                 "Azúcar",
                 "Mantequilla",
-                "Chocolate (opcional, para bañar una cara)"
+                "Chocolate (opcional, para bañar una cara)",
+                "Interior relleno de sabores (consulte con el personal para los sabores disponibles)"
             ]
         }
     },
@@ -131,7 +137,7 @@
         "descripcion": "Clásicos donuts con textura suave y esponjosa, fritos a la perfección y cubiertos con glaseado de azúcar, chocolate o decoraciones coloridas. Disponibles en diferentes sabores como vainilla, chocolate o rellenos de crema y mermelada. Perfectos para un antojo dulce o para compartir con amigos.",
         "detalles": {
             "textura": "Exterior ligeramente crujiente con interior esponjoso y tierno. Cubiertos con glaseado brillante o azúcar.",
-            "sabor": "Dulce y delicioso, con variedad de sabores: vainilla, chocolate, fresa o rellenos como crema pastelera o mermelada.",
+            "sabor": "Dulce y delicioso, con variedad de sabores: vainilla, chocolate, fresa.",
             "ideal_para": "Perfectos para desayunos, meriendas, celebraciones o para acompañar un café en cualquier momento del día.",
             "ingredientes_principales": [
                 "Harina de trigo",
@@ -141,8 +147,7 @@
                 "Leche",
                 "Mantequilla",
                 "Aceite para freír",
-                "Glaseado de azúcar o chocolate",
-                "Rellenos (opcional): crema, mermelada, etc."
+                "Bañados en distintos sabores (consulta con nuestro personal para saber cuál están disponibles)"
             ]
         }
     },
@@ -210,8 +215,8 @@
         }
     },
     {
-        "id": 12,
-        "imagen": "Imagenes/dulces/hojaldre_manzana.jpeg",
+        "id": 11,
+        "imagen": "Imagenes/dulces/manzana.jpg",
         "nombre": "Hojaldre de manzana",
         "DescripcionBreve": "Crujiente hojaldre relleno y cubierto con finas láminas de manzana caramelizada.",
         "descripcion": "Delicioso hojaldre horneado con finas rodajas de manzana dispuestas sobre una base de masa crujiente. Puede incluir una fina capa de crema pastelera o compota de manzana y se glasea con mermelada de albaricoque o azúcar para un acabado brillante. Una opción tradicional, sencilla y exquisita.",
@@ -232,7 +237,7 @@
     },
     {
         "id": 12,
-        "imagen": "Imagenes/dulces/magdalenas.jpeg",
+        "imagen": "Imagenes/dulces/magdalenas.jpg",
         "nombre": "Magdalenas",
         "DescripcionBreve": "Magdalenas esponjosas y doradas, con un sabor suave y un toque casero inconfundible.",
         "descripcion": "Magdalenas tradicionales elaboradas con ingredientes simples y naturales. De textura esponjosa y sabor delicadamente dulce, pueden llevar un toque de ralladura de limón o vainilla. Perfectas para acompañar el desayuno o la merienda, solas o con una bebida caliente.",
@@ -252,8 +257,8 @@
         }
     },
     {
-        "id": 14,
-        "imagen": "Imagenes/dulces/bizcochos.jpeg",
+        "id": 13,
+        "imagen": "Imagenes/dulces/bizcocho.jpg",
         "nombre": "Bizcochos",
         "DescripcionBreve": "Bizcochos caseros, esponjosos y dorados, perfectos para acompañar con café o chocolate.",
         "descripcion": "Clásicos bizcochos elaborados con una mezcla suave de huevos, azúcar, harina y un toque de cítricos o vainilla. Horneados hasta lograr una textura esponjosa y un dorado irresistible. Pueden servirse solos, espolvoreados con azúcar glas o como base para tartas y postres más elaborados.",
