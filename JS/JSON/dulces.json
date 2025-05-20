@@ -28,8 +28,8 @@
             "imagen3": "Imagenes/index/hecho.jpeg"
         },
         "alergenos":{
-            "gluten":"/Imagenes/gluten.png",
-            "cacahuetes":""
+            "gluten":"/Imagenes/allergy_18488425.png",
+            "cacahuetes":"/Imagenes/gluten.png"
         }
         
     },
@@ -51,6 +51,10 @@
                 "Sal",
                 "Opcional: canela o vainilla"
             ]
+        },
+        "alergenos":{
+            "gluten":"/Imagenes/allergy_18488425.png",
+            "cacahuetes":"/Imagenes/gluten.png"
         }
     },
     {
@@ -70,6 +74,10 @@
                 "Chocolate (opcional, para bañar una cara)",
                 "Interior relleno de sabores (consulte con el personal para los sabores disponibles)"
             ]
+        },
+        "alergenos":{
+            "gluten":"/Imagenes/allergy_18488425.png",
+            "cacahuetes":"/Imagenes/gluten.png"
         }
     },
     {
@@ -91,6 +99,10 @@
                 "Ralladura de limón o anís",
                 "Canela (opcional)"
             ]
+        },
+        "alergenos":{
+            "gluten":"/Imagenes/allergy_18488425.png",
+            "cacahuetes":"/Imagenes/gluten.png"
         }
     },
     {
@@ -109,6 +121,10 @@
                 "Azúcar glas o azúcar normal para espolvorear",
                 "Huevo (para dorar)"
             ]
+        },
+        "alergenos":{
+            "gluten":"/Imagenes/allergy_18488425.png",
+            "cacahuetes":"/Imagenes/gluten.png"
         }
     },
     {
@@ -127,6 +143,10 @@
                 "Azúcar glas",
                 "Huevo (para dorar el hojaldre)"
             ]
+        },
+        "alergenos":{
+            "gluten":"/Imagenes/allergy_18488425.png",
+            "cacahuetes":"/Imagenes/gluten.png"
         }
     },
     {
@@ -149,6 +169,10 @@
                 "Aceite para freír",
                 "Bañados en distintos sabores (consulta con nuestro personal para saber cuál están disponibles)"
             ]
+        },
+        "alergenos":{
+            "gluten":"/Imagenes/allergy_18488425.png",
+            "cacahuetes":"/Imagenes/gluten.png"
         }
     },
     {
@@ -169,6 +193,10 @@
                 "Huevo (para dorar)",
                 "Azúcar glas o almíbar (opcional para decorar)"
             ]
+        },
+        "alergenos":{
+            "gluten":"/Imagenes/allergy_18488425.png",
+            "cacahuetes":"/Imagenes/gluten.png"
         }
     },
     {
@@ -192,6 +220,10 @@
                 "Relleno de crema pastelera o chocolate",
                 "Azúcar glas o granulada para decorar"
             ]
+        },
+        "alergenos":{
+            "gluten":"/Imagenes/allergy_18488425.png",
+            "cacahuetes":"/Imagenes/gluten.png"
         }
     },
     {
@@ -212,6 +244,10 @@
                 "Mermelada o gelatina para glasear",
                 "Huevo (para dorar el hojaldre)"
             ]
+        },
+        "alergenos":{
+            "gluten":"/Imagenes/allergy_18488425.png",
+            "cacahuetes":"/Imagenes/gluten.png"
         }
     },
     {
@@ -254,6 +290,10 @@
                 "Levadura química (polvo de hornear)",
                 "Ralladura de limón o esencia de vainilla"
             ]
+        },
+        "alergenos":{
+            "gluten":"/Imagenes/allergy_18488425.png",
+            "cacahuetes":"/Imagenes/gluten.png"
         }
     },
     {
@@ -275,6 +315,10 @@
                 "Levadura química (polvo de hornear)",
                 "Ralladura de limón o esencia de vainilla"
             ]
+        },
+        "alergenos":{
+            "gluten":"/Imagenes/allergy_18488425.png",
+            "cacahuetes":"/Imagenes/gluten.png"
         }
     }
 ]
