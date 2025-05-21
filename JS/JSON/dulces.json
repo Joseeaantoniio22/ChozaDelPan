@@ -135,8 +135,12 @@
             ]
         },
         "alergenos": {
-            "gluten": "/Imagenes/allergy_18488425.png",
-            "cacahuetes": "/Imagenes/gluten.png"
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
+            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
+            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg",
+            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
         }
     },
     {
@@ -157,8 +161,12 @@
             ]
         },
         "alergenos": {
-            "gluten": "/Imagenes/allergy_18488425.png",
-            "cacahuetes": "/Imagenes/gluten.png"
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
+            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
+            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg",
+            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
         }
     },
     {
@@ -183,8 +191,12 @@
             ]
         },
         "alergenos": {
-            "gluten": "/Imagenes/allergy_18488425.png",
-            "cacahuetes": "/Imagenes/gluten.png"
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
+            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
+            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg",
+            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
         }
     },
     {
@@ -207,8 +219,12 @@
             ]
         },
         "alergenos": {
-            "gluten": "/Imagenes/allergy_18488425.png",
-            "cacahuetes": "/Imagenes/gluten.png"
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
+            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
+            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg",
+            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
         }
     },
     {
@@ -234,8 +250,12 @@
             ]
         },
         "alergenos": {
-            "gluten": "/Imagenes/allergy_18488425.png",
-            "cacahuetes": "/Imagenes/gluten.png"
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
+            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
+            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg",
+            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
         }
     },
     {
@@ -258,8 +278,12 @@
             ]
         },
         "alergenos": {
-            "gluten": "/Imagenes/allergy_18488425.png",
-            "cacahuetes": "/Imagenes/gluten.png"
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
+            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
+            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg",
+            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
         }
     },
     {
@@ -281,6 +305,14 @@
                 "Canela (opcional)",
                 "Crema pastelera o compota de manzana (opcional)"
             ]
+        },
+        "alergenos": {
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
+            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
+            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg",
+            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
         }
     },
     {
@@ -304,8 +336,12 @@
             ]
         },
         "alergenos": {
-            "gluten": "/Imagenes/allergy_18488425.png",
-            "cacahuetes": "/Imagenes/gluten.png"
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
+            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
+            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg",
+            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
         }
     },
     {
@@ -329,8 +365,12 @@
             ]
         },
         "alergenos": {
-            "gluten": "/Imagenes/allergy_18488425.png",
-            "cacahuetes": "/Imagenes/gluten.png"
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
+            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
+            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg",
+            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
         }
     }
 ]
