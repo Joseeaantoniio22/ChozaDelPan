@@ -27,11 +27,13 @@
             "imagen2": "/Imagenes/index/forma.jpeg",
             "imagen3": "Imagenes/index/hecho.jpeg"
         },
-        "alergenos":{
-            "gluten":"/Imagenes/allergy_18488425.png",
-            "cacahuetes":"/Imagenes/gluten.png"
+        "alergenos": {
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
+            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
+            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg"
         }
-        
     },
     {
         "id": 2,
@@ -52,9 +54,12 @@
                 "Opcional: canela o vainilla"
             ]
         },
-        "alergenos":{
-            "gluten":"/Imagenes/allergy_18488425.png",
-            "cacahuetes":"/Imagenes/gluten.png"
+        "alergenos": {
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
+            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
+            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg"
         }
     },
     {
@@ -75,9 +80,12 @@
                 "Interior relleno de sabores (consulte con el personal para los sabores disponibles)"
             ]
         },
-        "alergenos":{
-            "gluten":"/Imagenes/allergy_18488425.png",
-            "cacahuetes":"/Imagenes/gluten.png"
+        "alergenos": {
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
+            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
+            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg"
         }
     },
     {
@@ -100,9 +108,13 @@
                 "Canela (opcional)"
             ]
         },
-        "alergenos":{
-            "gluten":"/Imagenes/allergy_18488425.png",
-            "cacahuetes":"/Imagenes/gluten.png"
+        "alergenos": {
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
+            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
+            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg",
+            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
         }
     },
     {
@@ -122,9 +134,9 @@
                 "Huevo (para dorar)"
             ]
         },
-        "alergenos":{
-            "gluten":"/Imagenes/allergy_18488425.png",
-            "cacahuetes":"/Imagenes/gluten.png"
+        "alergenos": {
+            "gluten": "/Imagenes/allergy_18488425.png",
+            "cacahuetes": "/Imagenes/gluten.png"
         }
     },
     {
@@ -144,9 +156,9 @@
                 "Huevo (para dorar el hojaldre)"
             ]
         },
-        "alergenos":{
-            "gluten":"/Imagenes/allergy_18488425.png",
-            "cacahuetes":"/Imagenes/gluten.png"
+        "alergenos": {
+            "gluten": "/Imagenes/allergy_18488425.png",
+            "cacahuetes": "/Imagenes/gluten.png"
         }
     },
     {
@@ -170,9 +182,9 @@
                 "Bañados en distintos sabores (consulta con nuestro personal para saber cuál están disponibles)"
             ]
         },
-        "alergenos":{
-            "gluten":"/Imagenes/allergy_18488425.png",
-            "cacahuetes":"/Imagenes/gluten.png"
+        "alergenos": {
+            "gluten": "/Imagenes/allergy_18488425.png",
+            "cacahuetes": "/Imagenes/gluten.png"
         }
     },
     {
@@ -194,9 +206,9 @@
                 "Azúcar glas o almíbar (opcional para decorar)"
             ]
         },
-        "alergenos":{
-            "gluten":"/Imagenes/allergy_18488425.png",
-            "cacahuetes":"/Imagenes/gluten.png"
+        "alergenos": {
+            "gluten": "/Imagenes/allergy_18488425.png",
+            "cacahuetes": "/Imagenes/gluten.png"
         }
     },
     {
@@ -221,9 +233,9 @@
                 "Azúcar glas o granulada para decorar"
             ]
         },
-        "alergenos":{
-            "gluten":"/Imagenes/allergy_18488425.png",
-            "cacahuetes":"/Imagenes/gluten.png"
+        "alergenos": {
+            "gluten": "/Imagenes/allergy_18488425.png",
+            "cacahuetes": "/Imagenes/gluten.png"
         }
     },
     {
@@ -245,9 +257,9 @@
                 "Huevo (para dorar el hojaldre)"
             ]
         },
-        "alergenos":{
-            "gluten":"/Imagenes/allergy_18488425.png",
-            "cacahuetes":"/Imagenes/gluten.png"
+        "alergenos": {
+            "gluten": "/Imagenes/allergy_18488425.png",
+            "cacahuetes": "/Imagenes/gluten.png"
         }
     },
     {
@@ -291,9 +303,9 @@
                 "Ralladura de limón o esencia de vainilla"
             ]
         },
-        "alergenos":{
-            "gluten":"/Imagenes/allergy_18488425.png",
-            "cacahuetes":"/Imagenes/gluten.png"
+        "alergenos": {
+            "gluten": "/Imagenes/allergy_18488425.png",
+            "cacahuetes": "/Imagenes/gluten.png"
         }
     },
     {
@@ -316,9 +328,9 @@
                 "Ralladura de limón o esencia de vainilla"
             ]
         },
-        "alergenos":{
-            "gluten":"/Imagenes/allergy_18488425.png",
-            "cacahuetes":"/Imagenes/gluten.png"
+        "alergenos": {
+            "gluten": "/Imagenes/allergy_18488425.png",
+            "cacahuetes": "/Imagenes/gluten.png"
         }
     }
 ]
