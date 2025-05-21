@@ -18,7 +18,10 @@
       },
         "imagenes":{
           "imagen1":"Imagenes/pan/integral.jpg"
-        }
+        },
+        "Alergenos":{
+            "Gluten": "Imagenes/alergenos/gluten.png"
+      }
     },
 
     {
@@ -40,7 +43,10 @@
         },
         "imagenes":{
           "imagen1":"Imagenes/pan/espelta.jpg"
-        }
+        },
+        "Alergenos":{
+            "Gluten": "Imagenes/alergenos/gluten.png"
+      }
     },
 
     {
@@ -65,7 +71,11 @@
         },
         "imagenes":{
           "imagen1":"Imagenes/pan/pasasYnueces.jpg"
-        }
+        },
+        "Alergenos":{
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg"
+      }
     },
 
     {
@@ -110,7 +120,10 @@
         "imagenes":{
           "imagen1":"Imagenes/pan/masaMadreCopy.jpg",
           "imagen2": "Imagenes/pan/masMadre.jpg"
-        }
+        },
+        "Alergenos":{
+            "Gluten": "Imagenes/alergenos/gluten.png"
+      }
       },
 
       {
@@ -134,7 +147,10 @@
         "imagenes":{
           "imagen1":"Imagenes/pan/CENTENO1.jpg",
           "imagen2":"Imagenes/pan/centeno2.jpg"
-        }
+        },
+        "Alergenos":{
+            "Gluten": "Imagenes/alergenos/gluten.png"
+      }
       },
 
       {
@@ -159,7 +175,12 @@
         "imagenes":{
           "imagen1":"Imagenes/pan/chocoNaranjaCopy.jpg",
           "imagen2":"Imagenes/pan/chocoNaranja.jpg"
-        }
+        },
+        "Alergenos":{
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
+            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg"
+      }
       },
 
       {
@@ -182,7 +203,10 @@
         "imagenes":{
           "imagen1":"Imagenes/pan/cateto2.jpg",
           "imagen2":"Imagenes/pan/cateto.jpg"
-        }
+        },
+        "Alergenos":{
+            "Gluten": "Imagenes/alergenos/gluten.png"
+      }
       },
 
         {
@@ -206,6 +230,11 @@
           },        
       "imagenes":{
         "imagen1":"Imagenes/pan/espeltaIntegral.jpg"
+      },
+        "Alergenos":{
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg",
+            "Fructosa": "Imagenes/alergenos/miel.png"
       }
       },
 

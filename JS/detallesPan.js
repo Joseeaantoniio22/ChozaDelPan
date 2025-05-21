@@ -3,15 +3,28 @@ const params = new URLSearchParams(window.location.search);
 const idPan = params.get('id');
 
 fetch('../JS/JSON/panes.json')
-  .then(res => res.json())
-  .then(panes => {
-    const pan = panes.find(p => p.id == idPan);
-    if (!pan) {
-        document.getElementById("detalle-pan").innerHTML = "<p>Pan no encontrado.</p>";
-        return;
-    }
+    .then(res => res.json())
+    .then(panes => {
+        const pan = panes.find(p => p.id == idPan);
+        if (!pan) {
+            document.getElementById("detalle-pan").innerHTML = "<p>Pan no encontrado.</p>";
+            return;
+        }
 
-    document.getElementById("detalle-Pan").innerHTML = `
+
+        // Generar HTML de alérgenos de forma dinámica y segura
+        const alergenosHTML = Object.entries(pan.Alergenos)
+            .filter(([nombre, ruta]) => ruta) // solo mostrar si hay imagen
+            .map(([nombre, ruta]) => `
+                <div class="alergeno">
+                <img src="../${ruta}" alt="${nombre}" title="${nombre}">
+                <span>${nombre.charAt(0).toUpperCase() + nombre.slice(1)}</span>
+                </div>
+            `).join("");
+
+
+
+        document.getElementById("detalle-Pan").innerHTML = `
         <h1>${pan.nombre}</h1>
         <img src="../${pan.imagenes.imagen1}" alt="${pan.nombre}">
         <p><strong>Descripción:</strong> ${pan.descripcion}</p>
@@ -26,10 +39,14 @@ fetch('../JS/JSON/panes.json')
         <ul>
             ${pan.detalles.ingredientes_principales.map(ing => `<li>${ing}</li>`).join("")}
         </ul>
+        <h3>Alérgenos</h3>
+                <div class="alergenos">
+                    ${alergenosHTML || "<p>Sin alérgenos declarados.</p>"}
+                </div>
         <a href="../nuestrospanes.html" class="btn-volver">← Volver al catálogo</a>
     `;
-})
-.catch(err => {
-    console.error("Error al cargar el detalle del :", err);
-    document.getElementById("detalle-pan").innerHTML = "<p>Error al cargar los datos.</p>";
-});
+    })
+    .catch(err => {
+        console.error("Error al cargar el detalle del :", err);
+        document.getElementById("detalle-pan").innerHTML = "<p>Error al cargar los datos.</p>";
+    });
