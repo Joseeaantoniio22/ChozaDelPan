@@ -30,9 +30,7 @@
         "alergenos": {
             "Gluten": "Imagenes/alergenos/gluten.png",
             "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
-            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
-            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
-            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg"
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg"
         }
     },
     {
@@ -57,9 +55,7 @@
         "alergenos": {
             "Gluten": "Imagenes/alergenos/gluten.png",
             "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
-            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
-            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
-            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg"
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg"
         }
     },
     {
@@ -82,10 +78,7 @@
         },
         "alergenos": {
             "Gluten": "Imagenes/alergenos/gluten.png",
-            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
-            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
-            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
-            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg"
+            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg"
         }
     },
     {
@@ -111,10 +104,7 @@
         "alergenos": {
             "Gluten": "Imagenes/alergenos/gluten.png",
             "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
-            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
-            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
-            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg",
-            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg"
         }
     },
     {
@@ -137,10 +127,7 @@
         "alergenos": {
             "Gluten": "Imagenes/alergenos/gluten.png",
             "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
-            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
-            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
-            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg",
-            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg"
         }
     },
     {
@@ -165,8 +152,7 @@
             "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
             "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
             "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
-            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg",
-            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
+            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg"
         }
     },
     {
@@ -194,14 +180,12 @@
             "Gluten": "Imagenes/alergenos/gluten.png",
             "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
             "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
-            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
-            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg",
-            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
+            "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg"
         }
     },
     {
         "id": 8,
-        "imagen": "",
+        "imagen": "Imagenes/dulces/napolitanas.jpg",
         "nombre": "Napolitanas",
         "DescripcionBreve": "Napolitanas de hojaldre rellenas de chocolate, crujientes por fuera y suaves por dentro.",
         "descripcion": "Deliciosas napolitanas elaboradas con masa de hojaldre dorada y crujiente, rellenas con una barra de chocolate fundente en su interior. A menudo decoradas con azúcar glas o almíbar por encima. Un clásico de la bollería ideal para desayunos o meriendas.",
@@ -223,8 +207,7 @@
             "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
             "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
             "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
-            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg",
-            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
+            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg"
         }
     },
     {
@@ -254,8 +237,7 @@
             "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
             "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
             "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
-            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg",
-            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
+            "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg"
         }
     },
     {
@@ -371,6 +353,58 @@
             "Soja": "Imagenes/alergenos/soy_allergen_food_allergens_icon_183721.svg",
             "Frutos secos": "Imagenes/alergenos/nuts_allergen_food_allergens_icon_183722.svg",
             "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
+        }
+    },
+    {
+        "id": 14,
+        "imagen": "Imagenes/dulces/queso.jpg",
+        "nombre": "Tartas de Queso",
+        "DescripcionBreve": "Tartas de queso cremosas, suaves y con un delicado sabor, ideales como postre o para ocasiones especiales.",
+        "descripcion": "Deliciosas tartas de queso elaboradas con una base de galleta crujiente y un relleno cremoso a base de queso crema, huevos y azúcar. Se pueden hornear o preparar en frío, y acompañar con mermeladas de frutas, caramelo o chocolate. Su textura suave y su sabor equilibrado las convierten en un postre irresistible.",
+        "detalles": {
+            "textura": "Cremosa y suave en el interior, con una base firme y ligeramente crujiente de galleta.",
+            "sabor": "Dulce y delicado, con un toque ácido del queso que se equilibra con la dulzura del relleno y los acompañamientos.",
+            "ideal_para": "Perfectas como postre después de una comida, para celebraciones o como detalle especial en una merienda.",
+            "ingredientes_principales": [
+                "Queso crema",
+                "Huevos",
+                "Azúcar",
+                "Nata o crema para batir",
+                "Base de galleta (galletas trituradas y mantequilla)",
+                "Harina o maicena (opcional)",
+                "Esencia de vainilla o ralladura de limón"
+            ]
+        },
+        "alergenos": {
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg"
+        }
+    },
+    {
+        "id": 15,
+        "imagen": "Imagenes/dulces/danycao.JPG",
+        "nombre": "Danycaos",
+        "DescripcionBreve": "Tiernos bollos de masa suave rellenos de delicioso chocolate, ideales para niños y amantes del dulce.",
+        "descripcion": "Danycaos esponjosos elaborados con una masa dulce y ligera, rellenos de crema de chocolate fundente. Perfectos para el desayuno, la merienda o como tentempié en cualquier momento del día. Su textura suave y el contraste con el relleno cremoso los convierten en un clásico irresistible para todas las edades.",
+        "detalles": {
+            "textura": "Masa suave, ligeramente aireada y esponjosa, con un relleno cremoso de chocolate.",
+            "sabor": "Dulce y reconfortante, con un marcado sabor a cacao en el interior y un ligero toque a vainilla en la masa.",
+            "ideal_para": "Perfectos para la merienda infantil, como snack para llevar o para disfrutar con un vaso de leche o cacao.",
+            "ingredientes_principales": [
+                "Harina de trigo",
+                "Huevos",
+                "Azúcar",
+                "Leche",
+                "Aceite o mantequilla",
+                "Levadura de panadería",
+                "Relleno de crema de chocolate (cacao, azúcar)"
+            ]
+        },
+        "alergenos": {
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg"
         }
     }
 ]

@@ -81,8 +81,8 @@
     {
         "id": 8,
         "nombre": "Pan de Trigo Sarraceno",
-        "DescripcionBreve": "Pan sin gluten natural, con un sabor único y textura reconfortante.",
-        "descripcion": "Elaborado con harina de trigo sarraceno y masa madre sin gluten, este pan es ideal para quienes buscan una alternativa saludable y digestiva. Su sabor profundo, ligeramente terroso, y su miga húmeda lo convierten en una opción excelente tanto para el día a día como para ocasiones especiales.",
+        "DescripcionBreve": "Pan natural, con un sabor único y textura reconfortante.",
+        "descripcion": "Elaborado con harina de trigo sarraceno y masa madre, este pan es ideal para quienes buscan una alternativa saludable y digestiva. Su sabor profundo, ligeramente terroso, y su miga húmeda lo convierten en una opción excelente tanto para el día a día como para ocasiones especiales.",
         "detalles": {
         "miga": "Densa y húmeda",
         "sabor": "Terroso, con notas suaves a nuez",
@@ -91,13 +91,16 @@
         "ingredientes_principales": [
             "Harina de trigo sarraceno",
             "Agua",
-            "Masa madre sin gluten",
+            "Masa madre",
             "Sal"
           ]
         },
         "imagenes":{
-          "imagen1":""
-        }
+          "imagen1":"Imagenes/pan/sarraceno.JPG"
+        },
+        "Alergenos":{
+            "Gluten": "Imagenes/alergenos/gluten.png"
+      }
       },
 
       {
@@ -259,7 +262,10 @@
         "imagenes":{
           "imagen1":"Imagenes/pan/PAN DE MAIZ.jpg",
           "imagen2":"Imagenes/pan/PAN DE MAIZ.png"
-        }
+        },
+        "Alergenos":{
+            "Gluten": "Imagenes/alergenos/gluten.png"
+      }
     },
 
     {
@@ -283,6 +289,9 @@
       },
       "imagenes":{
         "imagen1":"Imagenes/pan/payes.jpg"
+      },
+        "Alergenos":{
+            "Gluten": "Imagenes/alergenos/gluten.png"
       }
   },
 
@@ -307,6 +316,10 @@
         },
       "imagenes":{
         "imagen1":"Imagenes/pan/"
+      },
+        "Alergenos":{
+            "Gluten": "Imagenes/alergenos/gluten.png",
+            "Sulfitos": "Imagenes/alergenos/sulfites_allergen_food_allergens_icon_183725.svg"
       }
   }
 ]

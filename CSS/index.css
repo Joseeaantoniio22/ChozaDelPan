@@ -362,7 +362,6 @@ main {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    border: green 2px solid;
 }
 
 .texto{
@@ -563,7 +562,6 @@ main {
 
 @media (max-width:820px) {
     .promocion{
-        border: red 2px solid;
         font-family: Promocion;
         font-size: 2rem;
         width: 100%;
