@@ -406,6 +406,21 @@ main {
     }
 }
 
+#madre{
+    width: 25rem;
+    height: 25rem;
+    margin-top: 2rem;
+    border-radius: 100%;
+    border: 5px  rgb(49, 1, 1) solid;
+}
+
+@media (max-width: 820px) {
+    #madre{
+        width: 20rem;
+        height: auto;
+    }
+}
+
 .publicidad{
     font-size: 16px;
     margin: 2vh;

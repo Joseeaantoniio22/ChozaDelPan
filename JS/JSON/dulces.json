@@ -16,11 +16,9 @@
                 "Levadura fresca",
                 "Leche",
                 "Azúcar",
-                "Sal"
+                "Sal",
+                "Miel"
             ]
-        },
-        "Imagenes": {
-            "imagen2": "/Imagenes/dulces/Copycroissant.jpg"
         },
         "proceso": {
             "imagen1": "/Imagenes/index/masa.jpeg",
@@ -30,7 +28,8 @@
         "alergenos": {
             "Gluten": "Imagenes/alergenos/gluten.png",
             "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
-            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg"
+            "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg",
+            "Fructosa": "Imagenes/alergenos/miel.png"
         }
     },
     {
@@ -176,6 +175,11 @@
                 "Bañados en distintos sabores (consulta con nuestro personal para saber cuál están disponibles)"
             ]
         },
+        "proceso": {
+            "imagen1": "/Imagenes/dulces/masaDonuts.jpg",
+            "imagen2": "/Imagenes/dulces/donutsHechos.jpg",
+            "imagen3": "Imagenes/dulces/DONUTS.jpg"
+        },
         "alergenos": {
             "Gluten": "Imagenes/alergenos/gluten.png",
             "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
@@ -212,7 +216,7 @@
     },
     {
         "id": 9,
-        "imagen": "",
+        "imagen": "Imagenes/dulces/bombas.jpg",
         "nombre": "Bombas rellenas",
         "DescripcionBreve": "Bombas dulces esponjosas, rellenas de chocolate o crema, cubiertas con azúcar.",
         "descripcion": "Suaves y esponjosas bombas dulces, fritas y rellenas con crema pastelera o chocolate fundido (tenemos mas sabores pero no son habituales, si quieres poner, consulta con nuestro personal para los sabores disponibles.). Se espolvorean con azúcar para un acabado irresistible. Una delicia tradicional que combina una textura tierna con un centro cremoso, ideal para los amantes del dulce.",
@@ -242,7 +246,7 @@
     },
     {
         "id": 10,
-        "imagen": "Imagenes/dulces/hojaldre_fruta.jpeg",
+        "imagen": "Imagenes/dulces/fruta.jpg",
         "nombre": "Hojaldre de fruta",
         "DescripcionBreve": "Crujiente hojaldre horneado y cubierto con frutas frescas o cocidas y un toque de brillo dulce.",
         "descripcion": "Delicado pastel de hojaldre, horneado hasta obtener una textura crujiente y ligera, cubierto con frutas frescas o cocidas como manzana, fresa, durazno o kiwi. Puede llevar una fina capa de crema pastelera en la base y está glaseado para darle brillo. Ideal como postre o merienda elegante.",
@@ -316,6 +320,10 @@
                 "Levadura química (polvo de hornear)",
                 "Ralladura de limón o esencia de vainilla"
             ]
+        },
+        "proceso": {
+            "imagen1": "/Imagenes/dulces/masaMasa.jpg",
+            "imagen2": "/Imagenes/dulces/magdalenas.jpg"
         },
         "alergenos": {
             "Gluten": "Imagenes/alergenos/gluten.png",
@@ -406,5 +414,33 @@
             "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
             "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg"
         }
+    },
+    {
+    "id": 16,
+    "imagen": "Imagenes/dulces/suizo.jpg",
+    "nombre": "Bollos Suizos",
+    "DescripcionBreve": "Clásicos bollos de pan dulce con una capa de azúcar en la superficie, ideales para el desayuno o la merienda.",
+    "descripcion": "Los Bollos Suizos son un dulce tradicional de la repostería española, conocidos por su masa tierna y ligeramente dulce. Cubiertos con una característica capa de azúcar humedecida, se hornean hasta alcanzar un dorado perfecto. Son ideales para acompañar con café con leche o chocolate caliente.",
+    "detalles": {
+        "textura": "Masa blanda, esponjosa y ligeramente densa, con una corteza fina y dulce gracias a la cobertura de azúcar.",
+        "sabor": "Suave y delicadamente dulce, con un ligero aroma a mantequilla y un toque de vainilla.",
+        "ideal_para": "Perfectos para el desayuno o la merienda, especialmente acompañados de bebidas calientes.",
+        "ingredientes_principales": [
+            "Harina de trigo",
+            "Leche",
+            "Huevos",
+            "Azúcar",
+            "Mantequilla",
+            "Levadura de panadería",
+            "Sal",
+            "Vainilla"
+        ]
+    },
+    "alergenos": {
+        "Gluten": "Imagenes/alergenos/gluten.png",
+        "Lacteos": "Imagenes/alergenos/milk_allergen_food_allergens_icon_183724.svg",
+        "Huevos": "Imagenes/alergenos/egg_allergen_food_allergens_icon_183730.svg"
     }
+}
+
 ]
