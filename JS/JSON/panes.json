@@ -315,7 +315,7 @@
           ]
         },
       "imagenes":{
-        "imagen1":"Imagenes/pan/"
+        "imagen1":"Imagenes/pan/curry.png"
       },
         "Alergenos":{
             "Gluten": "Imagenes/alergenos/gluten.png",
